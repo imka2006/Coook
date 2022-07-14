@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../style.scss",
+        "../ascents/importants/_core.scss",
+        "../ascents/importants/_classes.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
