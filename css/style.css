@@ -38,24 +38,6 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 1200px) {
-  .container {
-    padding: 0 30px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    padding: 0 10px;
-  }
-}
-
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,5 +138,23 @@ li {
 
 .catalog__block--bottom {
   padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
