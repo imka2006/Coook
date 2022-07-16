@@ -38,44 +38,46 @@ li {
   list-style: none;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Gilroy';
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
 }
 
-button {
-  border: none;
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-input {
-  outline: none;
-  border: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .catalog__hat {
@@ -92,8 +94,8 @@ li {
   font-size: 16px;
   color: #212629;
   background: #E9E9E9;
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
   border-radius: 99px;
   cursor: pointer;
 }
@@ -112,14 +114,47 @@ li {
 
 .catalog__list--wrapper {
   margin-bottom: 110px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.catalog__list--wrapper {
+.catalog__block {
+  max-width: 370px;
+}
+
+.catalog__block--top {
+  background: #FE724B;
+  width: 100%;
+  height: 370px;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.catalog__food--image {
   width: 370px;
 }
 
 .catalog__icon--like {
-  fill: red;
-  background: red;
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  z-index: 999;
+}
+
+.catalog__block--spicy {
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.catalog__block--bottom {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */
