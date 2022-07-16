@@ -8,7 +8,7 @@
         "../ascents/helpers/_mixin.scss",
         "../ascents/helpers/_variables.scss",
         "../ascents/Сomponents/_catalog.scss",
-        "../ascents/media/_global-media.scss"
+        "../ascents/media/global-media.scss"
     ],
     "names": [],
     "file": "style.css"
