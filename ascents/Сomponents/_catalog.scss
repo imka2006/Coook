@@ -27,74 +27,81 @@
     &__list--wrapper {
         margin-bottom: 110px;
         flex-wrap: wrap;
-        
     }
     &__block {
         max-width: 370px;
-        border-radius: 5px 40px 40px 40px;
-        transition: .3s;
+        border-radius: 40px 40px 40px 5px;
+        overflow: hidden;
+        transition: 0.3s;
         &:hover {
-            box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05),
+                40px 40px 50px rgba(0, 0, 0, 0.5);
         }
-        &:hover .catalog__block--bottom{
-            background:$liteblack;
+        &:hover .catalog__block--bottom {
+            background: $liteblack;
             border: 1px solid $liteblack;
         }
         &:hover .catalog__food--subtitle {
             color: $white;
-            transition: .3s;
+            transition: 0.3s;
         }
         &:hover .catalog__food--quantity {
             color: $white;
-            transition: .3s;
+            transition: 0.3s;
         }
         &:hover .catalog__food--data {
-            color:$litegrayhover;
-            transition: .3s;
+            color: $litegrayhover;
+            transition: 0.3s;
         }
         &:hover .catalog__food--descr {
-            color:$litegrayhover;
-            transition: .3s;
+            color: $litegrayhover;
+            transition: 0.3s;
         }
         &:hover .catalog__btns {
             border: 1px solid rgba(255, 255, 255, 0.08);
         }
         &:hover .catalog__btn--minus::after {
             background: $white;
-            transition: .3s;
+            transition: 0.3s;
         }
         &:hover .catalog__btn--plus::after {
             background: $white;
-            transition: .3s;
+            transition: 0.3s;
         }
         &:hover .catalog__btn--plus::before {
             background: $white;
-            transition: .3s;
+            transition: 0.3s;
         }
         &:hover .catalog__food--add {
-            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5),
+                -1px -1px 6px rgba(255, 255, 255, 0.05),
+                -5px -5px 20px rgba(255, 255, 255, 0.1),
+                5px 5px 20px rgba(0, 0, 0, 0.8);
             background: $liteblack;
-            transition: .3s
+            transition: 0.3s;
         }
         &:hover .catalog__food--add:hover {
-            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
-            transition: .3s;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08),
+                -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff,
+                5px 5px 20px #d3d3d3;
+            transition: 0.3s;
         }
         &:hover .dot {
-            background: rgba(255, 255, 255, 0.2)
+            background: rgba(255, 255, 255, 0.2);
+            transition: 0.3s;
         }
     }
     &__block--top {
         background: $liteoreng;
         width: 100%;
         height: 370px;
-        border-radius: 40px 40px 0px 0px;
         position: relative;
         overflow: hidden;
         z-index: 1;
     }
     &__food--image {
-        max-width: 370px;
+        width: 100%;
+        height: 100%;
     }
     &__icon--like {
         position: absolute;
@@ -106,22 +113,21 @@
         position: absolute;
         top: -30px;
         left: 20px;
-        @include box (40px, 40px, $white);
+        @include box(40px, 40px, $white);
         border-radius: 50%;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
         z-index: 9;
     }
     &__block--bottom {
         padding: 20px;
-        background:$litewhite;
+        background: $litewhite;
         border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 0 0 40px 5px;
         position: relative;
         margin-top: -1px;
-        transition: .3s;
+        transition: 0.3s;
     }
     &__food--subtitle {
-        @include font (700, 20px, $liteblack);
+        @include font(700, 20px, $liteblack);
         margin-bottom: 17px;
         height: 50px;
     }
@@ -129,16 +135,16 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        @include font (300, 14px, $litegray);
+        @include font(300, 14px, $litegray);
     }
     &__food--descr {
-        @include font (300, 17px, $litegray);
-        height:80px;
+        @include font(300, 17px, $litegray);
+        height: 80px;
         margin: 20px 0;
     }
     &__btns {
         padding: 10px 20px;
-        border: 1px solid #FFFFFF;
+        border: 1px solid #ffffff;
         border-radius: 99px;
         gap: 21px;
     }
@@ -149,20 +155,25 @@
     }
     &__food--add {
         background: $litewhite;
-        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08),
+            -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff,
+            5px 5px 20px #d3d3d3;
         border-radius: 99px;
-        padding: 10PX 59PX;
-        @include font (700, 18px, $litegold);
+        padding: 10px 59px;
+        @include font(700, 18px, $litegold);
         &:hover {
-            box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8), inset -6px -6px 5px rgba(255, 255, 255, 0.3), inset 1px 1px 3px rgba(0, 0, 0, 0.15), inset 6px 6px 5px rgba(0, 0, 0, 0.06);
+            box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8),
+                inset -6px -6px 5px rgba(255, 255, 255, 0.3),
+                inset 1px 1px 3px rgba(0, 0, 0, 0.15),
+                inset 6px 6px 5px rgba(0, 0, 0, 0.06);
         }
     }
     &__btn--minus {
         position: relative;
         &::after {
-            position:absolute;
+            position: absolute;
             content: "";
-            @include box (14px, 1.5px, $liteblack);
+            @include box(14px, 1.5px, $liteblack);
             left: -5px;
             border-radius: 1px;
         }
@@ -170,9 +181,9 @@
     &__btn--plus {
         position: relative;
         &::after {
-            position:absolute;
+            position: absolute;
             content: "";
-            @include box (14px, 1.5px, $liteblack);
+            @include box(14px, 1.5px, $liteblack);
             right: -5px;
             border-radius: 1px;
         }
@@ -181,7 +192,7 @@
             position: absolute;
             content: "";
             right: 1px;
-            @include box (1.5px, 13px, $liteblack);
+            @include box(1.5px, 13px, $liteblack);
             border-radius: 1px;
         }
     }

@@ -109,9 +109,10 @@ li {
 
 .catalog__block {
   max-width: 370px;
-  border-radius: 5px 40px 40px 40px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  border-radius: 40px 40px 40px 5px;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover {
@@ -126,26 +127,26 @@ li {
 
 .catalog__block:hover .catalog__food--subtitle {
   color: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--quantity {
   color: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--data {
   color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--descr {
   color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__btns {
@@ -154,53 +155,55 @@ li {
 
 .catalog__block:hover .catalog__btn--minus::after {
   background: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__btn--plus::after {
   background: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__btn--plus::before {
   background: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--add {
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
           box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
   background: #212629;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--add:hover {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block:hover .dot {
   background: rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__block--top {
   background: #FE724B;
   width: 100%;
   height: 370px;
-  border-radius: 40px 40px 0px 0px;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
 .catalog__food--image {
-  max-width: 370px;
+  width: 100%;
+  height: 100%;
 }
 
 .catalog__icon--like {
@@ -227,11 +230,10 @@ li {
   padding: 20px;
   background: #E9E9E9;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 0 40px 5px;
   position: relative;
   margin-top: -1px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .catalog__food--subtitle {
@@ -265,7 +267,7 @@ li {
 
 .catalog__btns {
   padding: 10px 20px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 99px;
   gap: 21px;
 }
@@ -282,10 +284,10 @@ li {
 
 .catalog__food--add {
   background: #E9E9E9;
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
   border-radius: 99px;
-  padding: 10PX 59PX;
+  padding: 10px 59px;
   font-weight: 700;
   font-size: 18px;
   color: #FE9102;
