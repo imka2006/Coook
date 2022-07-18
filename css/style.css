@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -73,6 +73,8 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 72px;
 }
@@ -113,6 +115,10 @@ li {
   overflow: hidden;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.catalog__block.active {
+  max-width: 770px;
 }
 
 .catalog__block:hover {
@@ -192,6 +198,13 @@ li {
   transition: 0.3s;
 }
 
+.catalog__icon--close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: none;
+}
+
 .catalog__block--top {
   background: #FE724B;
   width: 100%;
@@ -210,7 +223,15 @@ li {
   position: absolute;
   top: 23px;
   left: 20px;
+  width: 20px;
+  height: 18px;
   z-index: 999;
+}
+
+.catalog__icon--like-second {
+  width: 17px;
+  left: 21.5px;
+  display: none;
 }
 
 .catalog__block--spicy {
@@ -293,9 +314,8 @@ li {
   color: #FE9102;
 }
 
-.catalog__food--add:hover {
-  -webkit-box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8), inset -6px -6px 5px rgba(255, 255, 255, 0.3), inset 1px 1px 3px rgba(0, 0, 0, 0.15), inset 6px 6px 5px rgba(0, 0, 0, 0.06);
-          box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8), inset -6px -6px 5px rgba(255, 255, 255, 0.3), inset 1px 1px 3px rgba(0, 0, 0, 0.15), inset 6px 6px 5px rgba(0, 0, 0, 0.06);
+.catalog__food--add.active {
+  background: red;
 }
 
 .catalog__btn--minus {
