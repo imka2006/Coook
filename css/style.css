@@ -117,10 +117,6 @@ li {
   transition: 0.3s;
 }
 
-.catalog__block.active {
-  max-width: 770px;
-}
-
 .catalog__block:hover {
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
@@ -193,6 +189,102 @@ li {
 }
 
 .catalog__block:hover .dot {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active {
+  max-width: 770px;
+  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
+}
+
+.catalog__block.active .catalog__block--bottom {
+  padding: 60px;
+}
+
+.catalog__block.active .catalog__food--add {
+  width: 100%;
+}
+
+.catalog__block.active .catalog__food--subtitle {
+  font-size: 40px;
+  margin-bottom: 75px;
+}
+
+.catalog__block.active .catalog__block--bottom {
+  background: #212629;
+  border: 1px solid #212629;
+}
+
+.catalog__block.active .catalog__block--bottom {
+  background: #212629;
+  border: 1px solid #212629;
+}
+
+.catalog__block.active .catalog__food--subtitle {
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__food--quantity {
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__food--data {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__food--descr {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__btns {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.catalog__block.active .catalog__btn--minus::after {
+  background: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__btn--plus::after {
+  background: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__btn--plus::before {
+  background: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__food--add {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+  background: #212629;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .catalog__food--add:hover {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog__block.active .dot {
   background: rgba(255, 255, 255, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -355,6 +447,31 @@ li {
   height: 13px;
   background: #212629;
   border-radius: 1px;
+}
+
+.catalog__additionally {
+  margin-bottom: 40px;
+  display: none;
+}
+
+.catalog__additionally--title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.catalog__additionally--price, .catalog__additionally--info {
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+
+.catalog__additionally--block {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 30px 30px 30px 3px;
+  padding: 17px 20px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 1200px) {
