@@ -1,80 +1,55 @@
 .footer {
 
-    &__left--right {
-        // display: flex;
-    }
-
-    &__icon--one {
-        color: black;
-    }
-
-    &__border {
-        // display: flex;
-        align-items: center;
-    }
-
-    &__border {
-        border-top: 1px solid rgba(22, 22, 22, 0.08);
-        max-width: 370px;
-    }
-
-    &__top {
-        margin-top: 20px;
-    }
-
-    &__WhatsApp {
+    &__title {
         margin-left: 21px;
-    }
-
-    &__phone {
-        border-top: 1px solid rgba(22, 22, 22, 0.08);
-        max-width: 370px;
         margin-top: 20px;
-    }
-
-    &__telicon {
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    &__telphone {
-        margin-left: 21px;
-    }
-
-    &__emaill {
-        border-top: 1px solid rgba(22, 22, 22, 0.08);
-        max-width: 370px;
-        margin-top: 20px;
-    }
-
-    &__address {
-        margin-left: 21px;
-    }
-
-    &__emaiicon {
-        margin-top: 20px;
-    }
-
-    &__link {
         font-weight: 300;
         font-size: 18px;
         color: #212629;
     }
 
-    &__link:hover {
-        color: #25D366;
-        transition: .5s;
+    &__suptitle {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 18px;
+        color: #212629;
     }
 
-    &__menu {
+    &__img {
+        margin-top: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    &__left {
         border-top: 1px solid rgba(22, 22, 22, 0.08);
         max-width: 370px;
-        margin-top: 20px;
     }
 
-    &__menuicon{
-        margin-top: 20px;
+    &__full {
+        display: flex;
+        margin-bottom: 20px;
     }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__full {
+        border-top: 1px solid rgba(22, 22, 22, 0.08);
+        width: 370px;
+    }
+
+    &__link {
+        color: #212629;
+        &:hover {
+            cursor: pointer;
+            color: #25D366;
+            transition: .7s;
+        }
+    }
+
+
 
 }
