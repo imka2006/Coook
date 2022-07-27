@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -153,6 +153,46 @@ li {
   cursor: pointer;
   color: #25D366;
   transition: 0.7s;
+}
+
+.private__title {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 40px;
+  color: #212629;
+  margin-left: 30px;
+}
+.private__flex {
+  display: flex;
+  align-items: center;
+}
+.private__span {
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 500;
+}
+.private__span:hover {
+  color: #25D366;
+  transition: 0.7s;
+}
+.private__blok {
+  max-width: 1070px;
+  padding: 0px 80px;
+  margin-top: 46px;
+}
+.private__what {
+  font-weight: 700;
+  font-size: 20px;
+  color: #212629;
+}
+.private__suptitle {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgba(33, 38, 41, 0.6);
+}
+.private__name {
+  margin-left: 20px;
+  color: rgba(33, 38, 41, 0.6);
 }
 
 @media screen and (max-width: 1200px) {

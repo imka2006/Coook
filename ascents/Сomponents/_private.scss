@@ -1,0 +1,49 @@
+.private {
+
+    &__title {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 40px;
+        color: #212629;
+        margin-left: 30px;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+    }
+
+    &__span {
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 500;
+
+        &:hover {
+            color: #25D366;
+            transition: .7s;
+        }
+    }
+
+    &__blok {
+        max-width: 1070px;
+        padding: 0px 80px;
+        margin-top: 46px;
+    }
+
+    &__what {
+        font-weight: 700;
+        font-size: 20px;
+        color: #212629;
+    }
+
+    &__suptitle {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: rgba(33, 38, 41, 0.6);
+    }
+
+    &__name {
+        margin-left: 20px;
+        color: rgba(33, 38, 41, 0.6);
+    }
+}
