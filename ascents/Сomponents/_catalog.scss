@@ -280,7 +280,7 @@
             position: absolute;
             content: "";
             right: 1px;
-            @include box(1.5px, 13px, $liteblack);
+            @include box(2px, 13px, $liteblack);
             border-radius: 1px;
         }
     }

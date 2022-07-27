@@ -35,7 +35,7 @@ sortFilter.forEach((item) => {
 
 const catalogWrapper = document.querySelector(".catalog__list--wrapper");
 const getData = async () => {
-    const result = await fetch("http://localhost:3000/menu__food");
+    const result = await fetch("http://localhost:3000/menu__food?category=Закуски");
     const data = await result.json();
     catalogWrapper.innerHTML = "";
     for (let i = 0; i < data.length; i++) {
