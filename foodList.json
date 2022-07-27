@@ -1,981 +1,1488 @@
 {
-  "menu__food": [
-    {
-      "img": "https://img-global.cpcdn.com/recipes/ce702341c949ef76/400x400cq70/photo.jpg",
-      "name": "Салат с жаренным сыром",
-      "category": "Салаты",
-      "price": 440,
-      "calories": 188,
-      "gram": 400,
-      "descr":["по больше сыра","по домашнему","лично от шеф повара"],
-      "coment": "Сыр и свежо обжаренные картошки в масле "
-    },
-    {
-      "img": "http://navat.kg/dostavka/files/products/salat-fatush-3.300x300.jpg",
-      "name": "Салат фаттуш",
-      "category": "Салаты",
-      "price": 440,
-      "calories": 188,
-      "gram": 400,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment":"Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://zernograd.com/wp-content/uploads/2017/06/salat-s-forel-yu-i-rukkoloj-1300x1300.jpg",
-      "name": "Салат с киноа и форелью",
-      "category": "Салаты",
-      "price": 450,
-      "calories": 446,
-      "gram": 300,
-      "descr":["по больше фарели","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://www.cookeranna.ru/wp-content/uploads/2021/06/salat-kurica-pp-500x500.jpg",
-      "name": "Салат домашний",
-      "category": "Салаты",
-      "price": 180,
-      "calories": 110.1,
-      "gram": 200,
-      "descr":["по больше порции","по больше перции","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://i0.wp.com/fartyk.ru/wp-content/uploads/2020/06/cezary.png",
-      "name": "Цезарь овощной",
-      "category": "Салаты",
-      "price": 180,
-      "calories": 163.8,
-      "gram": 320,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://www.bwiamcooking.com/wp-content/uploads/2020/02/salat-s-avokado-i-chechevicej-poshagovyj-recept.webp",
-      "name": "Мужской каприз",
-      "category": "Салаты",
-      "price": 310,
-      "calories": 315,
-      "gram": 220,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://www.patee.ru/r/x6/19/4a/af/960m.jpg",
-      "name": "Оливье",
-      "category": "Салаты",
-      "price": 225,
-      "calories": 160,
-      "gram": 250,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://alimero.ru/img/rsz/scl/600/%2Fuploads%2Fimages%2F00%2F46%2F52%2F2012%2F04%2F20%2F4f50ca_wmark.jpg",
-      "name": "Чизеру",
-      "category": "Салаты",
-      "price": 410,
-      "calories": 220,
-      "gram": 300,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://www.cookeranna.ru/wp-content/uploads/2021/12/uhiughg.gif",
-      "name": "Язык в соусе",
-      "category": "Салаты",
-      "price": 410,
-      "calories": 220,
-      "gram": 250,
-      "descr":["по больше мясо","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://www.maggi.ru/data/images/recept/img640x618/recept_5291_byei.jpg",
-      "name": "Салат восточный",
-      "category": "Салаты",
-      "price":370,
-      "calories": 180,
-      "gram": 220,
-      "descr":["по больше перции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://img-global.cpcdn.com/recipes/ab53d3dc5e1c9064/400x400cq70/photo.jpg",
-      "name": "Салат лянсай",
-      "category": "Салаты",
-      "price":290,
-      "calories": 170,
-      "gram": 230,
-      "descr":["по больше перции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://bonapeti.ru/files/lib/250x250/green-salad-beet11.jpg",
-      "name": "Витаминка свекольная",
-      "category": "Салаты",
-      "price":185,
-      "calories": 160,
-      "gram": 230,
-      "descr":["по больше перции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://barakat24.ru/wp-content/uploads/2021/07/IMG_20210707_12451128129-300x300.jpg",
-      "name": "Шакарап ",
-      "category": "Салаты",
-      "price":165,
-      "calories": 150,
-      "gram": 200,
-      "descr":["по больше лука","по домашнему","по больше томата"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://podacha-blud.com/uploads/posts/2021-07/1627060427_11-p-salat-iz-kapusti-restorannaya-podacha-11.png",
-      "name": "Витаминка капустная",
-      "category": "Салаты",
-      "price":185,
-      "calories": 130,
-      "gram": 230,
-      "descr":["по больше капусты","по домашнему","по больше перции"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://barakat24.ru/wp-content/uploads/2021/07/IMG_20210707_12451128129-300x300.jpg",
-      "name": "Шакарап острый",
-      "category": "Салаты",
-      "price":170,
-      "calories": 135,
-      "gram": 220,
-      "descr":["по больше лука","по домашнему","по больше томата"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-     {
-      "img": "https://podacha-blud.com/uploads/posts/2021-07/thumbs/1627060375_12-p-salat-iz-kapusti-restorannaya-podacha-12.jpg",
-      "name": "Салат свежий",
-      "category": "Салаты",
-      "price":180,
-      "calories": 140,
-      "gram": 180,
-      "descr":["по больше лука","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-     {
-      "img": "https://podacha-blud.com/uploads/posts/2021-07/thumbs/1627060460_18-p-salat-iz-kapusti-restorannaya-podacha-18.jpg",
-      "name": "Винегрет",
-      "category": "Салаты",
-      "price":185,
-      "calories": 140,
-      "gram": 250,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://img-global.cpcdn.com/recipes/42083cc357a5733a/400x400cq70/photo.jpg",
-      "name": "Салат свекольный с орехами",
-      "category": "Салаты",
-      "price":195,
-      "calories": 150,
-      "gram": 250,
-      "descr":["по больше ореха","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://scontent.ffru7-1.fna.fbcdn.net/v/t1.6435-9/140014684_2444551015690601_8139273067454609100_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a26aad&_nc_ohc=uozOObzH3M8AX8NKmQy&_nc_ht=scontent.ffru7-1.fna&oh=00_AT9U4CE7E_JV63K4LCVtQvipCj3mOU0GJcnBg8eo-MO-fw&oe=62FE8A0F",
-      "name": "Могуро",
-      "category": "Салаты",
-      "price":410,
-      "calories": 170,
-      "gram": 300,
-      "descr":["по больше порции","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    { 
-      "img": "https://kajmak.ru/upload/iblock/a2f/a2ff0aaa2eccbfc852585649a394b381.jpg",
-      "name": "Мушуру",
-      "category": "Салаты",
-      "price":410,
-      "calories": 170,
-      "gram": 300,
-      "descr":["по больше телятини","по домашнему","лично от шеф повара"],
-      "coment": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
-    },
-    {
-      "img": "https://podacha-blud.com/uploads/posts/2021-07/thumbs/1627060445_19-p-salat-iz-kapusti-restorannaya-podacha-19.jpg",
-      "name": "Гнездо",
-      "category": "Салаты",
-      "price":370,
-      "calories": 170,
-      "gram": 270,
-      "descr":["по больше картошки","по домашнему","лично от шеф повара"],
-      "coment": "Сыр и свежо обжаренные картошки в масле"
-    },
-    {
-      "img": "https://vkusno-bistro.ru/files/originals/ayashi.png",
-      "name": "Аяши",
-      "category": "Суши ролы",
-      "price":185,
-      "calories": 140,
-      "gram": 180,
-      "descr":["по больше порции","по больше перции","лично от шеф повара"],
-      "coment":" Краб-крем, омлет тамаго, сырный соус, унаги соус, кунжут"
-    },
-    {
-      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/3401546fe43c42e9a05325a74c937ce4_366x366.jpeg",
-      "name": "Аригато",
-      "category": "Суши ролы",
-      "price":270,
-      "calories": 150,
-      "gram": 210,
-      "descr":["по больше критветок","по больше перции","лично от шеф повара"],
-      "coment": "Креветки в темпуре, масаго, сливочный сыр"
-    },
-    {
-      "img": "https://nikitoria.ru/catalog/medium-69.jpg",
-      "name": "Калифорния с кунжутом",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 160,
-      "gram": 195,
-      "descr":["по больше авокадо","по больше перции","лично от шеф повара"],
-      "coment": "Краб сурими, авокадо, огурец, кунжут, соус шеф"
-    },
-    {
-      "img": "https://halalbutik.ru/image/cache/catalog/setsandrolls/img_0955-800x800.png",
-      "name": "Калифорния с масаго",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 160,
-      "gram": 195,
-      "descr":["по больше перции","по больше авокадо","лично от шеф повара"],
-      "coment": " Краб сурими, авокадо, огурец, икра масаго"
-    },
-    {
-      "img": "https://media.leverans.ru/product_images/rostov/sushi-dona/ed6dad5305f535b419b954ef223fc7a1_thumb_30_576_576.jpg",
-      "name": "Ролл Чио Рио",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 160,
-      "gram": 195,
-      "descr":["по больше перции","по больше cыра","лично от шеф повара"],
-      "coment": " сливочный сыр,омлет,огурец,ореховый соус"
-    },
-    {
-      "img": "https://temakiroll.ru/image/cache/catalog/Temaki0265-800x800.jpg",
-      "name": "Ролл Флорида",
-      "category": "Суши ролы",
-      "price":280,
-      "calories": 170,
-      "gram": 195,
-      "descr":["по больше перции","по больше лосося","лично от шеф повара"],
-      "coment": " рис,нори,сыр слив,огурец,икра лосося"
-    },
-    {
-      "img": "https://sushi-hino.ru/images/stories/virtuemart/product/f_78.jpg",
-      "name": "Лава с крабом",
-      "category": "Суши ролы",
-      "price":120,
-      "calories": 155,
-      "gram": 235,
-      "descr":["по больше перции","по больше яки-соуса","лично от шеф повара"],
-      "coment": " Краб-крем, сливочный сыр, огурец, яки-соус"
-    },
-    {
-      "img": "https://sushi-lab.ru/image/cache/catalog/2020/cold/lavaslososem0.225kg269rub-500x0500.jpg",
-      "name": "Лава с лососем",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 235,
-      "descr":["по больше перции","по больше яки-соуса","лично от шеф повара"],
-      "coment": "Лосось, сливочный сыр, огурец, яки соу"
-    },
-    {
-      "img": "https://мамаазия32.рф/image/cache/data/new/46-500x500.jpg",
-      "name": "Чикен спайси",
-      "category": "Суши ролы",
-      "price":120,
-      "calories": 140,
-      "gram": 244,
-      "descr":["по больше перции","по больше соуса","лично от шеф повара"],
-      "coment": "нори, краб-крем, паприка, салат айсберг, масаго, кунжут, кура, филе, спайси соус"
-    },
-    {
-      "img": "https://calorizator.ru/sites/default/files/imagecache/product_512/product/tori-yasai.jpg",
-      "name": "Ясай",
-      "category": "Суши ролы",
-      "price":120,
-      "calories": 140,
-      "gram": 122,
-      "descr":["по больше перции","по больше соуса","лично от шеф повара"],
-      "coment": " Авокадо, огурец, перец болгарский, пекинская капуста"
-    },
-    {
-      "img": "https://temakiroll.ru/image/cache/catalog/Temaki20332-800x800.jpg",
-      "name": "Фуджи",
-      "category": "Суши ролы",
-      "price":120,
-      "calories": 140,
-      "gram": 122,
-      "descr":["по больше перции","по больше соуса","лично от шеф повара"],
-      "coment": "Кура,рис., нори, огурец, кунжут, сыр сливочный, икра масаго"
-    },
-    {
-      "img": "https://sushidom31.ru/media/cache/95/d4/95d4ed67e91d7f6c47ddaff311ea5cca.jpg",
-      "name": "Калифорния с креветкой",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 195,
-      "descr":["по больше краба","по больше икры","лично от шеф повара"],
-      "coment": "Креветка, краб, икра масаго, огурец"
-    },
-    {
-      "img": "https://tula.sushifoods.ru/wp-content/uploads/sites/40/2017/07/71ee4e51.jpg",
-      "name": "Сырный ролл (запеченный)",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 222,
-      "descr":["по больше сыра","по больше унаги-соуса","лично от шеф повара"],
-      "coment": "Салат айсберг, сырный соус, сливочный сыр, унаги соус, кура, рис, нори"
-    },
-    {
-      "img": "https://sushiking46.ru/wp-content/uploads/2021/03/roll-shiitake-min.jpg",
-      "name": "Шиитаке ролл (запеченный)",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 254,
-      "descr":["по больше сыра","по больше унаги-соуса","лично от шеф повара"],
-      "coment": " рис, нори, кура,, шиитаке терияки, салат айсберг, огурец, сливочный сыр, масаго, сырный соус, унаги соус, кунжут"
-    },
-    {
-      "img": "http://sushirolls96.ru/uploadedFiles/eshopimages/icons/320x320/bezymyannyy1.png",
-      "name": "Яки ролл (запеченный)",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 159,
-      "descr":["по больше сыра","по больше унаги-соуса","лично от шеф повара"],
-      "coment": "  Креветки, сливочный сыр, яки соус, кунжут, унаги соус"
-    },
-    {
-      "img": "https://i2.wp.com/sushiakami.ru/wp-content/uploads/%D0%B7%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D1%8B%D0%B9-%D1%80%D0%BE%D0%BB%D0%BB-%D0%90%D1%8F%D1%88%D0%B8.jpg?fit=1500%2C1500&ssl=1",
-      "name": "Аяши ролл (запеченный)",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 179,
-      "descr":["по больше сыра","по больше сырного соуса","лично от шеф повара"],
-      "coment": " Краб-крем, омлет тамаго, сырный соус, унаги соус, кунжут"
-    },
-    {
-      "img": "https://static.tildacdn.com/tild6234-6539-4738-a435-343734386661/70.jpg",
-      "name": "Ямайка (запеченный)",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 252,
-      "descr":["по больше сыра","по больше яки-соуса","лично от шеф повара"],
-      "coment": "  Краб-крем, сливочный сыр, омлет тамаго, яки соус, масаго"
-    },
-    {
-      "img": "https://makitoria.com/wp-content/uploads/2018/10/bgnmJB4sqns.jpg",
-      "name": "Кура Гриль (запеченный)",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 155,
-      "gram": 120,
-      "descr":["по больше сыра","по больше соуса","лично от шеф повара"],
-      "coment": "Кура, сырный соус"
-    },
-    {
-      "img": "https://sushiking46.ru/wp-content/uploads/2021/01/z.-ringo-roll1-min-270x270.jpg",
-      "name": "Афина",
-      "category": "Суши ролы",
-      "price":120,
-      "calories": 165,
-      "gram": 185,
-      "descr":["по больше сыра","по больше соуса","лично от шеф повара"],
-      "coment": "рис, нори, сыр сливочн, кура п/копч, огурец, салат пекин.масаго, кунжут"
-    },
-    {
-      "img": "https://media.istockphoto.com/photos/japanese-sushi-isolated-on-black-background-reflection-in-a-mirror-picture-id1203784514?b=1&k=20&m=1203784514&s=170667a&w=0&h=i0C28f8heUm39rjK6FWF3xnAIP1PikNr2m7U5pIBOZk=",
-      "name": "Горячий ролл Бостон",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 165,
-      "gram": 215,
-      "descr":["по больше сыра","по больше соуса","лично от шеф повара"],
-      "coment": "рис, нори, сыр сливочн, томат, кура п/коп, сухари. соус спайси"
-    },
-    {
-      "img": "https://media.istockphoto.com/photos/japanese-sushi-isolated-on-black-background-reflection-in-a-mirror-picture-id1203159137?b=1&k=20&m=1203159137&s=170667a&w=0&h=TQu5CZXRHqbcCBOa27rPdvq8gqQu49dzWt2UHtvJweE=",
-      "name": "Горячий ролл с лососем",
-      "category": "Суши ролы",
-      "price":180,
-      "calories": 165,
-      "gram": 225,
-      "descr":["по больше сыра","по больше соуса","лично от шеф повара"],
-      "coment": "рис, нори, сыр, сливочн, кура п/копч, краб.сурими, сухари"
-    },
-    {
-      "img": "https://avatars.mds.yandex.net/i?id=97a5e3cb3061813f69a38cdc6ea8272b_l-5669136-images-thumbs&n=13",
-      "name": "Закуска << Любимая >>",
-      "category": "Закуски",
-      "price":300,
-      "calories": 200,
-      "gram":400,
-      "descr":["по больше баклажана","по больше соуса","лично от шеф повара"],
-      "coment": "Нежные рулетики из баклажан со сливочно-чесночным соусом, начиненные свежим томатом"
-    },
-    {
-      "img": "https://static.tildacdn.com/tild3036-6261-4362-b034-313731646330/_.png",
-      "name": "Селедочка под водочку",
-      "category": "Закуски",
-      "price":400,
-      "calories": 200,
-      "gram":380,
-      "descr":["по больше огурцов","по больше соуса","лично от шеф повара"],
-      "coment": "Сочная соленая сельдь с нежным картофелем с хрустящими огурцами и маринованным луком"
-    },
-    {
-      "img": "https://kulinaria1914.ru/800/600/https/dubrovka-ku.com.ua/content/uploads/2019/02/solenja.png?x32842",
-      "name": "Погребок",
-      "category": "Закуски",
-      "price":455,
-      "calories": 210,
-      "gram":310,
-      "descr":["по больше грибов","по больше соуса","лично от шеф повара"],
-      "coment": "Маринованные грибочки с репчатым луком и зеленью"
-    },
-    {
-      "img": "https://shengen-delivery.ru/wp-content/uploads/2021/09/raznosol-1000h1000.jpg",
-      "name": "Ассорти саленый",
-      "category": "Закуски",
-      "price":455,
-      "calories": 215,
-      "gram": 510,
-      "descr":["по больше капусты","по больше соуса","лично от шеф повара"],
-      "coment": "Квашеная капуста, корнишоны, черри, маринованные кукуруза и грибы Цельные хрустящие маринады с кисловатым послевкусием"
-    },
-    {
-      "img": "https://pbs.twimg.com/media/CLjS9jXUcAAUtAR.jpg",
-      "name": "Ассорти национальное",
-      "category": "Закуски",
-      "price":450,
-      "calories": 215,
-      "gram": 370,
-      "descr":["по больше мясо","по больше соуса","лично от шеф повара"],
-      "coment": "Казы, карта, язык, копчёный курдюк. Нежное мясо с пикантным оттенком"
-    },
-    {
-      "img": "https://7element-cafe.ru/wp-content/uploads/2021/04/5bfe1b24904e7_1080x1080_fit_70_fff.png",
-      "name": "Ассорти Кавказское",
-      "category": "Закуски",
-      "price":455,
-      "calories": 220,
-      "gram": 700,
-      "descr":["по больше перции","по больше соуса","лично от шеф повара"],
-      "coment": "Свежие огурцы, помидоры, брынза, зелень, паприка, стручковый перец, соус, лаваш."
-    },
-    {
-      "img": "https://stariy-baku.com/wp-content/uploads/2019/04/RYBNOE-ASSORTI.jpg",
-      "name": "Ассорти Рыбное",
-      "category": "Закуски",
-      "price":480,
-      "calories": 222,
-      "gram": 300,
-      "descr":["по больше помидоров","по больше соуса","лично от шеф повара"],
-      "coment": "эсколар, королевская форель, икра. Нежный бархатистый вкус рыбы с оттенками солоноватности."
-    },
-    {
-      "img": "https://s.6262.com.ua/section/catalognewsintext/upload/images/catalog/intext/000/051/813/palermoua825970441276159887277326997021373673696063n_5e56655b153db.jpg",
-      "name": "Рулеты << Назик >> с фарелью",
-      "category": "Закуски",
-      "price":320,
-      "calories": 222,
-      "gram": 350,
-      "descr":["по больше помидоров","по больше соуса","лично от шеф повара"],
-      "coment": "Рулетики из армянского лаваша, начиненные слабосоленой копченой королевской форелью,"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/klab-losos-280x280.jpg вставленные новые ссылки",
-      "name": "Клаб лосось",
-      "category": "Закуски",
-      "price":260,
-      "calories": 250,
-      "gram": 190,
-      "descr":["по больше помидоров","по больше соуса","лично от шеф повара"],
-      "coment": "свежий лосось, лист салата, сыр, помидор"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/klab-kurica-280x280.jpg вставленные новые ссылки", 
-      "name": "Клаб курица",
-      "category": "Закуски",
-      "price":180,
-      "calories": 250,
-      "gram": 190,
-      "descr":["по больше помидоров","по больше соуса","лично от шеф повара"],
-      "coment": "свежий лосось, лист салата, сыр, помидор"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/upakovka-dlya-kartofelya-fri-pure-kraft-_1-280x280.jpg вставленные новые ссылки", 
-      "name": "Картошка фри",
-      "category": "Закуски",
-      "price":100,
-      "calories": 150,
-      "gram": 120,
-      "descr":["по больше порции","по больше соуса","лично от шеф повара"],
-      "coment": "свежие картошки"
-    },
-    {
-      "img": "https://tokyostreet42.ru/wp-content/uploads/2021/12/3-крыла-2.jpg", 
-      "name": "Крылышки 3 шт.",
-      "category": "Закуски",
-      "price":119,
-      "calories": 190,
-      "gram": 120,
-      "descr":["по больше порции","по больше соуса","лично от шеф повара"],
-      "coment": "свежие куринное мясо и сочные ножки обжаренные в масло"
-    },
-    {
-      "img": "https://static.tildacdn.com/tild3135-3162-4435-b161-376231656261/d54acd1b387852341dbd.png", 
-      "name": "Крылышки 5 шт.",
-      "category": "Закуски",
-      "price":189,
-      "calories": 220,
-      "gram": 120,
-      "descr":["по больше порции","по больше соуса","лично от шеф повара"],
-      "coment": "свежие куринное мясо и сочные ножки обжаренные в масло"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/soba-krevetka-280x280.jpg  ", 
-      "name": "Соба креветка",
-      "category": "Лапша",
-      "price":350,
-      "calories": 250,
-      "gram": 300,
-      "descr":["по больше лапшы","по больше соуса","лично от шеф повара"],
-      "coment": "Гречневая лапша, тигровые креветки, паприка, кабачки"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/soba-kurica-280x280.jpg  ", 
-      "name": "Соба курица",
-      "category": "Лапша",
-      "price":270,
-      "calories": 250,
-      "gram": 300,
-      "descr":["по больше лапшы","по больше кабачков","лично от шеф повара"],
-      "coment": "Гречневая лапша, курица, паприка, кабачки"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/soba-s-govjadinoj-280x280.jpg  ", 
-      "name": "Соба с говядиной",
-      "category": "Лапша",
-      "price":290,
-      "calories": 250,
-      "gram": 300,
-      "descr":["по больше лапшы","по больше кабачков","лично от шеф повара"],
-      "coment": "Гречневая лапша, говядина, паприка, кабачки"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/udon-govjadina-280x280.jpg  ", 
-      "name": "Удон говядина",
-      "category": "Лапша",
-      "price":290,
-      "calories": 250,
-      "gram": 300,
-      "descr":["по больше лапшы","по больше кабачков","лично от шеф повара"],
-      "coment": "Говядина, пшеничная лапша, паприка, кабачки, зеленый лук"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/udon-krevetka-280x280.jpg  ", 
-      "name": "Удон креветка",
-      "category": "Лапша",
-      "price":350,
-      "calories": 250,
-      "gram": 300,
-      "descr":["по больше лапшы","по больше кабачков","лично от шеф повара"],
-      "coment": "Тигровые креветки, пшеничная лапша,, паприка, кабачки"
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2021/07/udon-kurica-280x280.jpg  ", 
-      "name": "Удон курица",
-      "category": "Лапша",
-      "price":270,
-      "calories": 250,
-      "gram": 300,
-      "descr":["по больше лапшы","по больше кабачков","лично от шеф повара"],
-      "coment": "Курица, пшеничная лапша, паприка, кабачки, зеленый лук"
-    },
-    {
-      "img": "https://cdn.segodnya.ua/i/original/media/image/62a/700/d5b/62a700d5b37af.jpg.webp", 
-      "name": "Мампар",
-      "category": "Супы",
-      "price":190,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше говядина","по больше морковки","лично от шеф повара"],
-      "coment": "свежие говядина,  картошка , морковь , Томатная паста"
-    },
-    {
-      "img": "https://recept-borscha.ru/wp-content/uploads/5/e/0/5e0778f12ce79fb096b8735eccb61c88.jpeg", 
-      "name": "Овощной суп «Минестроне»",
-      "category": "Супы",
-      "price":180,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше говядина","по больше морковки","лично от шеф повара"],
-      "coment": "свежие говядина, картошка , помидоры , Томатная паста"
-    },
-    {
-      "img": "https://recept-borscha.ru/wp-content/uploads/8/9/0/890dd28c3c90faa0ba607858e6c4d6ad.jpeg", 
-      "name": "Овощной суп",
-      "category": "Супы",
-      "price":240,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше перции","по больше кабачков","лично от шеф повара"],
-      "coment": "Овощной суп. В состав входят цветная капуста, кабачки, баклажаны, морковь."
-    },
-    {
-      "img": "https://avatars.mds.yandex.net/get-altay/4587805/2a0000017ae5a2225b8d639234c685ddd775/XXL", 
-      "name": "Кимчи Тиге",
-      "category": "Супы",
-      "price":450,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше лапшы","по больше риса","лично от шеф повара"],
-      "coment": "суп из кимчи, крахмальной лапши, говядины, тофу, подается с рисом"
-    },
-    {
-      "img": "https://recept-borscha.ru/wp-content/uploads/f/e/5/fe590c1588a06b33eb284391a455d876.jpeg", 
-      "name": "Пулькогитукбеги",
-      "category": "Супы",
-      "price":450,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше грибов","по больше риса","лично от шеф повара"],
-      "coment": "Суп с говядиной, лук грибы, крахмальная лапша и морковь сладковатом соусе, рис"
-    },
-    {
-      "img": "https://avatars.mds.yandex.net/i?id=e7169018a8c4c41f240e52fdc26ebaec_l-5222323-images-thumbs&n=13", 
-      "name": "Кальбитан суп",
-      "category": "Супы",
-      "price":450,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше грибов","по больше риса","лично от шеф повара"],
-      "coment": "Суп из говяжьих рёбер, зеленый лук, лапша, яичный белок Подается с рисом"
-    },
-    {
-      "img": "https://sushitian.ru/uploads/s/z/k/u/zkul37s2xgaq/img/full_c8rCSyby.jpg", 
-      "name": "Тендян Тиге",
-      "category": "Супы",
-      "price":450,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше грибов","по больше риса","лично от шеф повара"],
-      "coment": "Суп из соевой пасты, говядины, тофу, кабачки, картошки, грибы, подается с рисом"
-    },
-    {
-      "img": "https://restorandia.ru/dostavka/images/product/50/50e75764a4729824ccaac655270e1b3e.jpg", 
-      "name": "Тямпон",
-      "category": "Супы",
-      "price":450,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше перции","по больше риса","лично от шеф повара"],
-      "coment": "Острый суп с морепродуктами с лапшой"
-    },
-    {
-      "img": "https://recept-borscha.ru/wp-content/uploads/8/d/1/8d115a2ce5adfd5506ac61a299aafde2.jpeg", 
-      "name": "Юкедян",
-      "category": "Супы",
-      "price":450,
-      "calories": 250,
-      "gram": 350,
-      "descr":["по больше яйиц","по больше риса","лично от шеф повара"],
-      "coment": "Суп из говядины, яйцо, грибы, проросшие бобы и папоротник."
-    },
-    {
-      "img": "https://www.maangchi.com/wp-content/uploads/2015/05/img_4810.jpg", 
-      "name": "Такторитан",
-      "category": "Супы",
-      "price":450,
-      "calories": 270,
-      "gram": 350,
-      "descr":["по больше овощей","по больше риса","лично от шеф повара"],
-      "coment": "Острый суп из курицы и овощей по корейски."
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/2265411_1630155383.518_original-280x280.jpg  ", 
-      "name": "Кола 0.5",
-      "category": "Напитки",
-      "price":50,
-      "calories": 210
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/full_cola_big-280x280.png  ",
-      "name": "Кола 1л ",
-      "category": "Напитки",
-      "price": 80 ,
-      "calories": 420
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/de34116f03f5526499389897e850fe0c-280x280.jpg  ",
-      "name": "Компот 1л",
-      "category": "Напитки",
-      "price": 70,
-      "calories": 120
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/269.970-280x280.jpg  ",
-      "name": "Спрайт 0,5л",
-      "category": "Напитки",
-      "price": 50,
-      "calories": 210
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/sprite-1l-280x280.jpg  ",
-      "name": "Спрайт 1л",
-      "category": "Напитки",
-      "price": 70,
-      "calories": 420
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/20170504.1493898493.sncpsg10.obj_.0.1.jpg.oe_.jpg.pf_.jpg.1350nowm.jpg.1350x-600x600-1-280x280.jpg  ",
-      "name": "Фанта 0,5л",
-      "category": "Напитки",
-      "price": 50,
-      "calories": 220
-    },
-    {
-      "img": "https://wasabi.kg/wp-content/uploads/2022/03/media-share-0-02-05-f2e064c2eabe4f7c927b2a645a7707cb1a6f4616870881094e6be3da4b9967a6-picture-280x280.jpg  ",
-      "name": "Фанта 1л",
-      "category": "Напитки",
-      "price": 70,
-      "calories": 420
-    },
-    {
-      "img": "https://buuza27.ru/wp-content/uploads/2020/05/9_amerikano_s_molokom.png",
-      "name": "Американо с молоком",
-      "category": "Напитки",
-      "price": 100
-    },
-    {
-      "img": "https://pbs.twimg.com/media/DPYfBq7UEAAkvRI.jpg",
-      "name": "Латте",
-      "category": "Напитки",
-      "price": 100
-    },
-    {
-      "img": "https://i.7fon.org/150/x207007.jpg",
-      "name": "Капучино",
-      "category": "Напитки",
-      "price": 100
-    },
-    {
-      "img": "https://i.ebayimg.com/images/i/400877699282-0-1/s-l1000.jpg",
-      "name": "Эспрессо классический",
-      "category": "Напитки",
-      "price": 100
-    },
-    {
-      "img": "картинка кофе",
-      "name": "Шоколадный латте",
-      "category": "Напитки",
-      "price": 100
-    },
-    {
-      "img": "https://about-tea.ru/wp-content/uploads/2/3/c/23cfe1ed74eb63e3ddcf7675f41f868f.jpeg",
-      "name": "Венское кофе «Новинка»",
-      "category": "Напитки",
-      "price": 100
-    },
-    {
-      "img": "https://avatars.mds.yandex.net/get-zen_doc/5313760/pub_60f3dfa94b5d8b6f2957ab8f_60f3e05f4b5d8b6f29593cf8/scale_1200",
-      "name": "Чизкейк",
-      "category": "Десерты",
-      "price": 150,
-      "calories": 220
-    },
-    {
-      "img": "https://mykaleidoscope.ru/uploads/posts/2021-09/1632149242_52-mykaleidoscope-ru-p-tri-shokolada-krasivo-foto-58.jpg",
-      "name": "Три шоколада",
-      "category": "Десерты",
-      "price": 170,
-      "calories": 220
-    },
-    {
-      "img": "http://klublady.ru/uploads/posts/2022-02/1645011931_1-klublady-ru-p-shokoladnii-ponchik-foto-1.jpg",
-      "name": "Шоколадный пончик",
-      "category": "Десерты",
-      "price": 50,
-      "calories": 150
-    },
-    {
-      "img": "https://mykaleidoscope.ru/uploads/posts/2021-09/1632443928_32-mykaleidoscope-ru-p-klubnichnii-ponchik-krasivo-foto-42.jpg",
-      "name": "Клубничный пончик",
-      "category": "Десерты",
-      "price": 50,
-      "calories": 150
-    },
-    {
-      "img": "https://s1.eda.ru/StaticContent/Photos/160327193714/160405213756/p_O.jpg",
-      "name": "Творожный пончик",
-      "category": "Десерты",
-      "price": 50
-    },
-    {
-      "img": "https://o-tendencii.com/uploads/posts/2022-02/1645937437_3-o-tendencii-com-p-bananovii-ponchik-foto-3.jpg",
-      "name": "Банановый пончик",
-      "category": "Десерты",
-      "price": 50,
-      "calories": 150
-    },
-    {
-      "img": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612318179_49-p-shokoladnie-ponchiki-fon-93.jpg",
-      "name": "Йогуртовый пончик",
-      "category": "Десерты",
-      "price": 50,
-      "calories": 150
-    },
-    {
-      "img": "https://i.redd.it/b4y4cmb7ovsz.jpg",
-      "name": "Ванильный пончик",
-      "category": "Десерты",
-      "price": 50,
-      "calories": 150
-    },
-    {
-      "img": "https://main-cdn.sbermegamarket.ru/hlr-system/106/967/060/752/411/22/100028505512b0.jpg",
-      "name": "Пончик со сгущенкой",
-      "category": "Десерты",
-      "price": 50,
-      "calories": 150
-    },
-    {
-      "img": "https://www.recreoviral.com/wp-content/uploads/2016/03/15.10.jpg",
-      "name": "Пончик «Нутелла»",
-      "category": "Десерты",
-      "price": 70,
-      "calories": 150
-    },
-    {
-      "img": "https://xome-chef.ru/image/cache/catalog/111-1647948527-1000x1000.jpeg", 
-      "name": "Картошка фри",
-      "category": "Детское меню",
-      "price":100,
-      "calories": 150,
-      "gram": 120
-    },
-    {
-      "img": "https://kartinkin.net/uploads/posts/2021-03/1617151586_50-p-fruktovii-salat-krasivo-59.jpg", 
-      "name": "Фруктовый салат",
-      "category": "Детское меню",
-      "price":250,
-      "calories": 178,
-      "gram": 270
-    },
-    {
-      "img": "https://royal-yeisk.ru/upload/resize_cache/iblock/d97/960_960_2/d9796b99464a00c0c76dde3d1bde058b.jpg",
-      "name": "Яичница глазунья",
-      "category": "Детское меню",
-      "price": 115,
-      "calories": 178,
-      "gram": 150
-    },
-    {
-      "img": "https://kartinkin.net/uploads/posts/2021-03/1617155629_9-p-yaichnitsa-s-bekonom-krasivo-9.jpg",
-      "name": "Яичница глазунья c сосиской",
-      "category": "Детское меню",
-      "price": 120,
-      "calories": 180,
-      "gram": 170
-    },
-    {
-      "img": "https://kartinkin.net/uploads/posts/2021-03/1617155629_9-p-yaichnitsa-s-bekonom-krasivo-9.jpg",
-      "name": "Яичница балтунья c сосиской",
-      "category": "Детское меню",
-      "price": 205,
-      "calories": 180,
-      "gram": 170
-    },
-    {
-      "img": "https://mykaleidoscope.ru/uploads/posts/2021-09/1632215994_33-mykaleidoscope-ru-p-blini-so-smetanoi-krasivo-foto-36.jpg",
-      "name": "Блинчики со сметаной",
-      "category": "Детское меню",
-      "price": 150,
-      "calories": 180,
-      "gram": 170
-    },
-    {
-      "img": "https://vkusnatisha.ru/wp-content/uploads/2021/01/IMG_20210127_101155-2048x2048.jpg",
-      "name": "Блинчики с бананом",
-      "category": "Детское меню",
-      "price": 200,
-      "calories": 180,
-      "gram": 170
-    },
-    {
-      "img": "https://домповар.рф/upload/iblock/dda/dda35d91ac9f306adf61aa621af0c628.jpg",
-      "name": "Блинчики с творогом",
-      "category": "Детское меню",
-      "price": 200,
-      "calories": 180,
-      "gram": 170
-    },
-    {
-      "img": "https://kvashenaya-kapusta.ru/wp-content/uploads/3/e/4/3e4a2ce47aa1a879bd589ac53e4d644e.jpeg",
-      "name": "Суп-лапша по домашнему",
-      "category": "Детское меню",
-      "price": 175,
-      "calories": 180,
-      "gram": 200
-    },
-    {
-      "img": "http://the-pled.ru/wp-content/uploads/2015/05/sup-s-frikadelkami.jpg",
-      "name": "Суп с фрикадельками",
-      "category": "Детское меню",
-      "price": 185,
-      "calories": 180,
-      "gram": 300
-    },
-    {
-      "img": "https://www.wok-cafe.com/upload/resize_cache/iblock/426/960_960_2/426f0f7cfc1aca74a5ead154ebb4aae5.jpg",
-      "name": "Жаренные вареники",
-      "category": "Детское меню",
-      "price": 230,
-      "calories": 178,
-      "gram": 250
-    },
-    {
-      "img": "https://sarang64.ru/assets/images/tovar/new/nagetsi.jpg",
-      "name": "Нагетсы куринные",
-      "category": "Детское меню",
-      "price": 240,
-      "calories": 220,
-      "gram": 250
-    },
-    {
-      "img": "https://avatars.mds.yandex.net/i?id=126485d7e9acaa4944b21ba6c9dd2546_l-5317527-images-thumbs&ref=rim&n=13&w=1080&h=1080",
-      "name": "Котлета с макоронами под сырным соусом",
-      "category": "Детское меню",
-      "price": 355,
-      "calories": 220,
-      "gram": 350
-    },
-    {
-      "img": "https://demo11.serious-art.ru/images/shashlyik-kuricza-na-shpazhke.jpg",
-      "name": "Мини шашлычок из телятини",
-      "category": "Детское меню",
-      "price": 380,
-      "calories": 220,
-      "gram": 400
-    }
-    
-  ]
+    "menu__food": [
+        {
+            "img": "https://avatars.mds.yandex.net/i?id=97a5e3cb3061813f69a38cdc6ea8272b_l-5669136-images-thumbs&n=13",
+            "name": "Закуска << Любимая >>",
+            "category": "Закуски",
+            "price": 300,
+            "calories": 200,
+            "gram": 400,
+            "coments": [
+                "по больше баклажана",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Нежные рулетики из баклажан со сливочно-чесночным соусом, начиненные свежим томатом"
+        },
+        {
+            "img": "https://static.tildacdn.com/tild3036-6261-4362-b034-313731646330/_.png",
+            "name": "Селедочка под водочку",
+            "category": "Закуски",
+            "price": 400,
+            "calories": 200,
+            "gram": 380,
+            "coments": [
+                "по больше огурцов",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Сочная соленая сельдь с нежным картофелем с хрустящими огурцами и маринованным луком"
+        },
+        {
+            "img": "https://kulinaria1914.ru/800/600/https/dubrovka-ku.com.ua/content/uploads/2019/02/solenja.png?x32842",
+            "name": "Погребок",
+            "category": "Закуски",
+            "price": 455,
+            "calories": 210,
+            "gram": 310,
+            "coments": [
+                "по больше грибов",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Маринованные грибочки с репчатым луком и зеленью"
+        },
+        {
+            "img": "https://shengen-delivery.ru/wp-content/uploads/2021/09/raznosol-1000h1000.jpg",
+            "name": "Ассорти саленый",
+            "category": "Закуски",
+            "price": 455,
+            "calories": 215,
+            "gram": 510,
+            "coments": [
+                "по больше капусты",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Квашеная капуста, корнишоны, черри, маринованные кукуруза и грибы Цельные хрустящие маринады с кисловатым послевкусием"
+        },
+        {
+            "img": "https://pbs.twimg.com/media/CLjS9jXUcAAUtAR.jpg",
+            "name": "Ассорти национальное",
+            "category": "Закуски",
+            "price": 450,
+            "calories": 215,
+            "gram": 370,
+            "coments": [
+                "по больше мясо",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Казы, карта, язык, копчёный курдюк. Нежное мясо с пикантным оттенком"
+        },
+        {
+            "img": "https://7element-cafe.ru/wp-content/uploads/2021/04/5bfe1b24904e7_1080x1080_fit_70_fff.png",
+            "name": "Ассорти Кавказское",
+            "category": "Закуски",
+            "price": 455,
+            "calories": 220,
+            "gram": 700,
+            "coments": [
+                "по больше перции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Свежие огурцы, помидоры, брынза, зелень, паприка, стручковый перец, соус, лаваш."
+        },
+        {
+            "img": "https://stariy-baku.com/wp-content/uploads/2019/04/RYBNOE-ASSORTI.jpg",
+            "name": "Ассорти Рыбное",
+            "category": "Закуски",
+            "price": 480,
+            "calories": 222,
+            "gram": 300,
+            "coments": [
+                "по больше помидоров",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "эсколар, королевская форель, икра. Нежный бархатистый вкус рыбы с оттенками солоноватности."
+        },
+        {
+            "img": "https://s.6262.com.ua/section/catalognewsintext/upload/images/catalog/intext/000/051/813/palermoua825970441276159887277326997021373673696063n_5e56655b153db.jpg",
+            "name": "Рулеты << Назик >> с фарелью",
+            "category": "Закуски",
+            "price": 320,
+            "calories": 222,
+            "gram": 350,
+            "coments": [
+                "по больше помидоров",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Рулетики из армянского лаваша, начиненные слабосоленой копченой королевской форелью,"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/klab-losos-280x280.jpg ",
+            "name": "Клаб лосось",
+            "category": "Закуски",
+            "price": 260,
+            "calories": 250,
+            "gram": 190,
+            "coments": [
+                "по больше помидоров",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежий лосось, лист салата, сыр, помидор"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/klab-kurica-280x280.jpg ",
+            "name": "Клаб курица",
+            "category": "Закуски",
+            "price": 180,
+            "calories": 250,
+            "gram": 190,
+            "coments": [
+                "по больше помидоров",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежий лосось, лист салата, сыр, помидор"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/upakovka-dlya-kartofelya-fri-pure-kraft-_1-280x280.jpg ",
+            "name": "Картошка фри",
+            "category": "Закуски",
+            "price": 100,
+            "calories": 150,
+            "gram": 120,
+            "coments": [
+                "по больше порции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежие картошки"
+        },
+        {
+            "img": "https://tokyostreet42.ru/wp-content/uploads/2021/12/3-крыла-2.jpg",
+            "name": "Крылышки 3 шт.",
+            "category": "Закуски",
+            "price": 119,
+            "calories": 190,
+            "gram": 120,
+            "coments": [
+                "по больше порции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежие куринное мясо и сочные ножки обжаренные в масло"
+        },
+        {
+            "img": "https://static.tildacdn.com/tild3135-3162-4435-b161-376231656261/d54acd1b387852341dbd.png",
+            "name": "Крылышки 5 шт.",
+            "category": "Закуски",
+            "price": 189,
+            "calories": 220,
+            "gram": 120,
+            "coments": [
+                "по больше порции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежие куринное мясо и сочные ножки обжаренные в масло"
+        },
+
+
+        {
+            "img": "https://img-global.cpcdn.com/recipes/ce702341c949ef76/400x400cq70/photo.jpg",
+            "name": "Салат с жаренным сыром",
+            "category": "Салаты",
+            "price": 440,
+            "calories": 188,
+            "gram": 400,
+            "coments": [
+                "по больше сыра",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Сыр и свежо обжаренные картошки в масле "
+        },
+        {
+            "img": "http://navat.kg/dostavka/files/products/salat-fatush-3.300x300.jpg",
+            "name": "Салат фаттуш",
+            "category": "Салаты",
+            "price": 440,
+            "calories": 188,
+            "gram": 400,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://zernograd.com/wp-content/uploads/2017/06/salat-s-forel-yu-i-rukkoloj-1300x1300.jpg",
+            "name": "Салат с киноа и форелью",
+            "category": "Салаты",
+            "price": 450,
+            "calories": 446,
+            "gram": 300,
+            "coments": [
+                "по больше фарели",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://www.cookeranna.ru/wp-content/uploads/2021/06/salat-kurica-pp-500x500.jpg",
+            "name": "Салат домашний",
+            "category": "Салаты",
+            "price": 180,
+            "calories": 110.1,
+            "gram": 200,
+            "coments": [
+                "по больше порции",
+                "по больше перции",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://i0.wp.com/fartyk.ru/wp-content/uploads/2020/06/cezary.png",
+            "name": "Цезарь овощной",
+            "category": "Салаты",
+            "price": 180,
+            "calories": 163.8,
+            "gram": 320,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://www.bwiamcooking.com/wp-content/uploads/2020/02/salat-s-avokado-i-chechevicej-poshagovyj-recept.webp",
+            "name": "Мужской каприз",
+            "category": "Салаты",
+            "price": 310,
+            "calories": 315,
+            "gram": 220,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://www.patee.ru/r/x6/19/4a/af/960m.jpg",
+            "name": "Оливье",
+            "category": "Салаты",
+            "price": 225,
+            "calories": 160,
+            "gram": 250,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://alimero.ru/img/rsz/scl/600/%2Fuploads%2Fimages%2F00%2F46%2F52%2F2012%2F04%2F20%2F4f50ca_wmark.jpg",
+            "name": "Чизеру",
+            "category": "Салаты",
+            "price": 410,
+            "calories": 220,
+            "gram": 300,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://www.cookeranna.ru/wp-content/uploads/2021/12/uhiughg.gif",
+            "name": "Язык в соусе",
+            "category": "Салаты",
+            "price": 410,
+            "calories": 220,
+            "gram": 250,
+            "coments": [
+                "по больше мясо",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":true,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://www.maggi.ru/data/images/recept/img640x618/recept_5291_byei.jpg",
+            "name": "Салат восточный",
+            "category": "Салаты",
+            "price": 370,
+            "calories": 180,
+            "gram": 220,
+            "coments": [
+                "по больше перции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":true,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://img-global.cpcdn.com/recipes/ab53d3dc5e1c9064/400x400cq70/photo.jpg",
+            "name": "Салат лянсай",
+            "category": "Салаты",
+            "price": 290,
+            "calories": 170,
+            "gram": 230,
+            "coments": [
+                "по больше перции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://bonapeti.ru/files/lib/250x250/green-salad-beet11.jpg",
+            "name": "Витаминка свекольная",
+            "category": "Салаты",
+            "price": 185,
+            "calories": 160,
+            "gram": 230,
+            "coments": [
+                "по больше перции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://barakat24.ru/wp-content/uploads/2021/07/IMG_20210707_12451128129-300x300.jpg",
+            "name": "Шакарап ",
+            "category": "Салаты",
+            "price": 165,
+            "calories": 150,
+            "gram": 200,
+            "coments": ["по больше лука", "по домашнему", "по больше томата"],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://podacha-blud.com/uploads/posts/2021-07/1627060427_11-p-salat-iz-kapusti-restorannaya-podacha-11.png",
+            "name": "Витаминка капустная",
+            "category": "Салаты",
+            "price": 185,
+            "calories": 130,
+            "gram": 230,
+            "coments": [
+                "по больше капусты",
+                "по домашнему",
+                "по больше перции"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://barakat24.ru/wp-content/uploads/2021/07/IMG_20210707_12451128129-300x300.jpg",
+            "name": "Шакарап острый",
+            "category": "Салаты",
+            "price": 170,
+            "calories": 135,
+            "gram": 220,
+            "coments": ["по больше лука", "по домашнему", "по больше томата"],
+            "spicy":true,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://podacha-blud.com/uploads/posts/2021-07/thumbs/1627060375_12-p-salat-iz-kapusti-restorannaya-podacha-12.jpg",
+            "name": "Салат свежий",
+            "category": "Салаты",
+            "price": 180,
+            "calories": 140,
+            "gram": 180,
+            "coments": [
+                "по больше лука",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://podacha-blud.com/uploads/posts/2021-07/thumbs/1627060460_18-p-salat-iz-kapusti-restorannaya-podacha-18.jpg",
+            "name": "Винегрет",
+            "category": "Салаты",
+            "price": 185,
+            "calories": 140,
+            "gram": 250,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":true,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://img-global.cpcdn.com/recipes/42083cc357a5733a/400x400cq70/photo.jpg",
+            "name": "Салат свекольный с орехами",
+            "category": "Салаты",
+            "price": 195,
+            "calories": 150,
+            "gram": 250,
+            "coments": [
+                "по больше ореха",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://scontent.ffru7-1.fna.fbcdn.net/v/t1.6435-9/140014684_2444551015690601_8139273067454609100_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a26aad&_nc_ohc=uozOObzH3M8AX8NKmQy&_nc_ht=scontent.ffru7-1.fna&oh=00_AT9U4CE7E_JV63K4LCVtQvipCj3mOU0GJcnBg8eo-MO-fw&oe=62FE8A0F",
+            "name": "Могуро",
+            "category": "Салаты",
+            "price": 410,
+            "calories": 170,
+            "gram": 300,
+            "coments": [
+                "по больше порции",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":true,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://kajmak.ru/upload/iblock/a2f/a2ff0aaa2eccbfc852585649a394b381.jpg",
+            "name": "Мушуру",
+            "category": "Салаты",
+            "price": 410,
+            "calories": 170,
+            "gram": 300,
+            "coments": [
+                "по больше телятини",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Это вкусное и сытное блюдо является любимым блюдом во многих семьях, полюбите его и вы"
+        },
+        {
+            "img": "https://podacha-blud.com/uploads/posts/2021-07/thumbs/1627060445_19-p-salat-iz-kapusti-restorannaya-podacha-19.jpg",
+            "name": "Гнездо",
+            "category": "Салаты",
+            "price": 370,
+            "calories": 170,
+            "gram": 270,
+            "coments": [
+                "по больше картошки",
+                "по домашнему",
+                "лично от шеф повара"
+            ],
+            "spicy":true,
+            "descr": "Сыр и свежо обжаренные картошки в масле"
+        },
+
+
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/soba-krevetka-280x280.jpg  ",
+            "name": "Соба креветка",
+            "category": "Лапша",
+            "price": 350,
+            "calories": 250,
+            "gram": 300,
+            "coments": [
+                "по больше лапшы",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Гречневая лапша, тигровые креветки, паприка, кабачки"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/soba-kurica-280x280.jpg  ",
+            "name": "Соба курица",
+            "category": "Лапша",
+            "price": 270,
+            "calories": 250,
+            "gram": 300,
+            "coments": [
+                "по больше лапшы",
+                "по больше кабачков",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Гречневая лапша, курица, паприка, кабачки"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/soba-s-govjadinoj-280x280.jpg  ",
+            "name": "Соба с говядиной",
+            "category": "Лапша",
+            "price": 290,
+            "calories": 250,
+            "gram": 300,
+            "coments": [
+                "по больше лапшы",
+                "по больше кабачков",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Гречневая лапша, говядина, паприка, кабачки"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/udon-govjadina-280x280.jpg  ",
+            "name": "Удон говядина",
+            "category": "Лапша",
+            "price": 290,
+            "calories": 250,
+            "gram": 300,
+            "coments": [
+                "по больше лапшы",
+                "по больше кабачков",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Говядина, пшеничная лапша, паприка, кабачки, зеленый лук"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/udon-krevetka-280x280.jpg  ",
+            "name": "Удон креветка",
+            "category": "Лапша",
+            "price": 350,
+            "calories": 250,
+            "gram": 300,
+            "coments": [
+                "по больше лапшы",
+                "по больше кабачков",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Тигровые креветки, пшеничная лапша,, паприка, кабачки"
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2021/07/udon-kurica-280x280.jpg  ",
+            "name": "Удон курица",
+            "category": "Лапша",
+            "price": 270,
+            "calories": 250,
+            "gram": 300,
+            "coments": [
+                "по больше лапшы",
+                "по больше кабачков",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Курица, пшеничная лапша, паприка, кабачки, зеленый лук"
+        },
+
+
+        {
+            "img": "https://vkusno-bistro.ru/files/originals/ayashi.png",
+            "name": "Аяши",
+            "category": "Суши и роллы",
+            "price": 185,
+            "calories": 140,
+            "gram": 180,
+            "coments": [
+                "по больше порции",
+                "по больше перции",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " Краб-крем, омлет тамаго, сырный соус, унаги соус, кунжут"
+        },
+        {
+            "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/3401546fe43c42e9a05325a74c937ce4_366x366.jpeg",
+            "name": "Аригато",
+            "category": "Суши и роллы",
+            "price": 270,
+            "calories": 150,
+            "gram": 210,
+            "coments": [
+                "по больше критветок",
+                "по больше перции",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Креветки в темпуре, масаго, сливочный сыр"
+        },
+        {
+            "img": "https://nikitoria.ru/catalog/medium-69.jpg",
+            "name": "Калифорния с кунжутом",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 160,
+            "gram": 195,
+            "coments": [
+                "по больше авокадо",
+                "по больше перции",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Краб сурими, авокадо, огурец, кунжут, соус шеф"
+        },
+        {
+            "img": "https://halalbutik.ru/image/cache/catalog/setsandrolls/img_0955-800x800.png",
+            "name": "Калифорния с масаго",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 160,
+            "gram": 195,
+            "coments": [
+                "по больше перции",
+                "по больше авокадо",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " Краб сурими, авокадо, огурец, икра масаго"
+        },
+        {
+            "img": "https://media.leverans.ru/product_images/rostov/sushi-dona/ed6dad5305f535b419b954ef223fc7a1_thumb_30_576_576.jpg",
+            "name": "Ролл Чио Рио",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 160,
+            "gram": 195,
+            "coments": [
+                "по больше перции",
+                "по больше cыра",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " сливочный сыр,омлет,огурец,ореховый соус"
+        },
+        {
+            "img": "https://temakiroll.ru/image/cache/catalog/Temaki0265-800x800.jpg",
+            "name": "Ролл Флорида",
+            "category": "Суши и роллы",
+            "price": 280,
+            "calories": 170,
+            "gram": 195,
+            "coments": [
+                "по больше перции",
+                "по больше лосося",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " рис,нори,сыр слив,огурец,икра лосося"
+        },
+        {
+            "img": "https://sushi-hino.ru/images/stories/virtuemart/product/f_78.jpg",
+            "name": "Лава с крабом",
+            "category": "Суши и роллы",
+            "price": 120,
+            "calories": 155,
+            "gram": 235,
+            "coments": [
+                "по больше перции",
+                "по больше яки-соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " Краб-крем, сливочный сыр, огурец, яки-соус"
+        },
+        {
+            "img": "https://sushi-lab.ru/image/cache/catalog/2020/cold/lavaslososem0.225kg269rub-500x0500.jpg",
+            "name": "Лава с лососем",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 235,
+            "coments": [
+                "по больше перции",
+                "по больше яки-соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Лосось, сливочный сыр, огурец, яки соу"
+        },
+        {
+            "img": "https://мамаазия32.рф/image/cache/data/new/46-500x500.jpg",
+            "name": "Чикен спайси",
+            "category": "Суши и роллы",
+            "price": 120,
+            "calories": 140,
+            "gram": 244,
+            "coments": [
+                "по больше перции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "нори, краб-крем, паприка, салат айсберг, масаго, кунжут, кура, филе, спайси соус"
+        },
+        {
+            "img": "https://calorizator.ru/sites/default/files/imagecache/product_512/product/tori-yasai.jpg",
+            "name": "Ясай",
+            "category": "Суши и роллы",
+            "price": 120,
+            "calories": 140,
+            "gram": 122,
+            "coments": [
+                "по больше перции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " Авокадо, огурец, перец болгарский, пекинская капуста"
+        },
+        {
+            "img": "https://temakiroll.ru/image/cache/catalog/Temaki20332-800x800.jpg",
+            "name": "Фуджи",
+            "category": "Суши и роллы",
+            "price": 120,
+            "calories": 140,
+            "gram": 122,
+            "coments": [
+                "по больше перции",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Кура,рис., нори, огурец, кунжут, сыр сливочный, икра масаго"
+        },
+        {
+            "img": "https://sushidom31.ru/media/cache/95/d4/95d4ed67e91d7f6c47ddaff311ea5cca.jpg",
+            "name": "Калифорния с креветкой",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 195,
+            "coments": [
+                "по больше краба",
+                "по больше икры",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Креветка, краб, икра масаго, огурец"
+        },
+        {
+            "img": "https://tula.sushifoods.ru/wp-content/uploads/sites/40/2017/07/71ee4e51.jpg",
+            "name": "Сырный ролл (запеченный)",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 222,
+            "coments": [
+                "по больше сыра",
+                "по больше унаги-соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Салат айсберг, сырный соус, сливочный сыр, унаги соус, кура, рис, нори"
+        },
+        {
+            "img": "https://sushiking46.ru/wp-content/uploads/2021/03/roll-shiitake-min.jpg",
+            "name": "Шиитаке ролл (запеченный)",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 254,
+            "coments": [
+                "по больше сыра",
+                "по больше унаги-соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " рис, нори, кура,, шиитаке терияки, салат айсберг, огурец, сливочный сыр, масаго, сырный соус, унаги соус, кунжут"
+        },
+        {
+            "img": "http://sushirolls96.ru/uploadedFiles/eshopimages/icons/320x320/bezymyannyy1.png",
+            "name": "Яки ролл (запеченный)",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 159,
+            "coments": [
+                "по больше сыра",
+                "по больше унаги-соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "  Креветки, сливочный сыр, яки соус, кунжут, унаги соус"
+        },
+        {
+            "img": "https://i2.wp.com/sushiakami.ru/wp-content/uploads/%D0%B7%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D1%8B%D0%B9-%D1%80%D0%BE%D0%BB%D0%BB-%D0%90%D1%8F%D1%88%D0%B8.jpg?fit=1500%2C1500&ssl=1",
+            "name": "Аяши ролл (запеченный)",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 179,
+            "coments": [
+                "по больше сыра",
+                "по больше сырного соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": " Краб-крем, омлет тамаго, сырный соус, унаги соус, кунжут"
+        },
+        {
+            "img": "https://static.tildacdn.com/tild6234-6539-4738-a435-343734386661/70.jpg",
+            "name": "Ямайка (запеченный)",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 252,
+            "coments": [
+                "по больше сыра",
+                "по больше яки-соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "  Краб-крем, сливочный сыр, омлет тамаго, яки соус, масаго"
+        },
+        {
+            "img": "https://makitoria.com/wp-content/uploads/2018/10/bgnmJB4sqns.jpg",
+            "name": "Кура Гриль (запеченный)",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 155,
+            "gram": 120,
+            "coments": [
+                "по больше сыра",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Кура, сырный соус"
+        },
+        {
+            "img": "https://sushiking46.ru/wp-content/uploads/2021/01/z.-ringo-roll1-min-270x270.jpg",
+            "name": "Афина",
+            "category": "Суши и роллы",
+            "price": 120,
+            "calories": 165,
+            "gram": 185,
+            "coments": [
+                "по больше сыра",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "рис, нори, сыр сливочн, кура п/копч, огурец, салат пекин.масаго, кунжут"
+        },
+        {
+            "img": "https://media.istockphoto.com/photos/japanese-sushi-isolated-on-black-background-reflection-in-a-mirror-picture-id1203784514?b=1&k=20&m=1203784514&s=170667a&w=0&h=i0C28f8heUm39rjK6FWF3xnAIP1PikNr2m7U5pIBOZk=",
+            "name": "Горячий ролл Бостон",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 165,
+            "gram": 215,
+            "coments": [
+                "по больше сыра",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "рис, нори, сыр сливочн, томат, кура п/коп, сухари. соус спайси"
+        },
+        {
+            "img": "https://media.istockphoto.com/photos/japanese-sushi-isolated-on-black-background-reflection-in-a-mirror-picture-id1203159137?b=1&k=20&m=1203159137&s=170667a&w=0&h=TQu5CZXRHqbcCBOa27rPdvq8gqQu49dzWt2UHtvJweE=",
+            "name": "Горячий ролл с лососем",
+            "category": "Суши и роллы",
+            "price": 180,
+            "calories": 165,
+            "gram": 225,
+            "coments": [
+                "по больше сыра",
+                "по больше соуса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "рис, нори, сыр, сливочн, кура п/копч, краб.сурими, сухари"
+        },
+
+
+        {
+            "img": "https://cdn.segodnya.ua/i/original/media/image/62a/700/d5b/62a700d5b37af.jpg.webp",
+            "name": "Мампар",
+            "category": "Супы",
+            "price": 190,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше говядина",
+                "по больше морковки",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежие говядина,  картошка , морковь , Томатная паста"
+        },
+        {
+            "img": "https://recept-borscha.ru/wp-content/uploads/5/e/0/5e0778f12ce79fb096b8735eccb61c88.jpeg",
+            "name": "Овощной суп «Минестроне»",
+            "category": "Супы",
+            "price": 180,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше говядина",
+                "по больше морковки",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "свежие говядина, картошка , помидоры , Томатная паста"
+        },
+        {
+            "img": "https://recept-borscha.ru/wp-content/uploads/8/9/0/890dd28c3c90faa0ba607858e6c4d6ad.jpeg",
+            "name": "Овощной суп",
+            "category": "Супы",
+            "price": 240,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше перции",
+                "по больше кабачков",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Овощной суп. В состав входят цветная капуста, кабачки, баклажаны, морковь."
+        },
+        {
+            "img": "https://avatars.mds.yandex.net/get-altay/4587805/2a0000017ae5a2225b8d639234c685ddd775/XXL",
+            "name": "Кимчи Тиге",
+            "category": "Супы",
+            "price": 450,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше лапшы",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "суп из кимчи, крахмальной лапши, говядины, тофу, подается с рисом"
+        },
+        {
+            "img": "https://recept-borscha.ru/wp-content/uploads/f/e/5/fe590c1588a06b33eb284391a455d876.jpeg",
+            "name": "Пулькогитукбеги",
+            "category": "Супы",
+            "price": 450,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше грибов",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Суп с говядиной, лук грибы, крахмальная лапша и морковь сладковатом соусе, рис"
+        },
+        {
+            "img": "https://avatars.mds.yandex.net/i?id=e7169018a8c4c41f240e52fdc26ebaec_l-5222323-images-thumbs&n=13",
+            "name": "Кальбитан суп",
+            "category": "Супы",
+            "price": 450,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше грибов",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Суп из говяжьих рёбер, зеленый лук, лапша, яичный белок Подается с рисом"
+        },
+        {
+            "img": "https://sushitian.ru/uploads/s/z/k/u/zkul37s2xgaq/img/full_c8rCSyby.jpg",
+            "name": "Тендян Тиге",
+            "category": "Супы",
+            "price": 450,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше грибов",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Суп из соевой пасты, говядины, тофу, кабачки, картошки, грибы, подается с рисом"
+        },
+        {
+            "img": "https://restorandia.ru/dostavka/images/product/50/50e75764a4729824ccaac655270e1b3e.jpg",
+            "name": "Тямпон",
+            "category": "Супы",
+            "price": 450,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше перции",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Острый суп с морепродуктами с лапшой"
+        },
+        {
+            "img": "https://recept-borscha.ru/wp-content/uploads/8/d/1/8d115a2ce5adfd5506ac61a299aafde2.jpeg",
+            "name": "Юкедян",
+            "category": "Супы",
+            "price": 450,
+            "calories": 250,
+            "gram": 350,
+            "coments": [
+                "по больше яйиц",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Суп из говядины, яйцо, грибы, проросшие бобы и папоротник."
+        },
+        {
+            "img": "https://www.maangchi.com/wp-content/uploads/2015/05/img_4810.jpg",
+            "name": "Такторитан",
+            "category": "Супы",
+            "price": 450,
+            "calories": 270,
+            "gram": 350,
+            "coments": [
+                "по больше овощей",
+                "по больше риса",
+                "лично от шеф повара"
+            ],
+            "spicy":false,
+            "descr": "Острый суп из курицы и овощей по корейски."
+        },
+
+
+        {
+            "img": "https://xome-chef.ru/image/cache/catalog/111-1647948527-1000x1000.jpeg",
+            "name": "Картошка фри",
+            "category": "Детское меню",
+            "price": 100,
+            "calories": 150,
+            "gram": 120,
+            "coments": ["куски попольше", "обычное", "острая"],
+            "spicy":false,
+            "descr": "фри  как в маке"
+        },
+        {
+            "img": "https://kartinkin.net/uploads/posts/2021-03/1617151586_50-p-fruktovii-salat-krasivo-59.jpg",
+            "name": "Фруктовый салат",
+            "category": "Детское меню",
+            "price": 250,
+            "calories": 178,
+            "gram": 270,
+            "coments": ["больше фруктов", "обычное", "соус из сгущенки"],
+            "spicy":false,
+            "descr": "фрукты из африки"
+        },
+        {
+            "img": "https://royal-yeisk.ru/upload/resize_cache/iblock/d97/960_960_2/d9796b99464a00c0c76dde3d1bde058b.jpg",
+            "name": "Яичница глазунья",
+            "category": "Детское меню",
+            "price": 115,
+            "calories": 178,
+            "gram": 150,
+            "coments": ["домашна", "из магазина", "перепилиное"],
+            "spicy":false,
+            "descr": "это cамое вкусное что вы попробуйите за всу свая бамжарскую жызнь"
+        },
+        {
+            "img": "https://kartinkin.net/uploads/posts/2021-03/1617155629_9-p-yaichnitsa-s-bekonom-krasivo-9.jpg",
+            "name": "Яичница глазунья c сосиской",
+            "category": "Детское меню",
+            "price": 120,
+            "calories": 180,
+            "gram": 170,
+            "coments": ["сырная", "обычное", "сосисок по больше"],
+            "spicy":false,
+            "descr": "сосиску отжали у сабаки"
+        },
+        {
+            "img": "https://kartinkin.net/uploads/posts/2021-03/1617155629_9-p-yaichnitsa-s-bekonom-krasivo-9.jpg",
+            "name": "Яичница балтунья c сосиской",
+            "category": "Детское меню",
+            "price": 205,
+            "calories": 180,
+            "gram": 170,
+            "coments": ["сырная", "обычное", "сосисок по больше"],
+            "spicy":false,
+            "descr": "сосиску отжали у сабаки"
+        },
+        {
+            "img": "https://mykaleidoscope.ru/uploads/posts/2021-09/1632215994_33-mykaleidoscope-ru-p-blini-so-smetanoi-krasivo-foto-36.jpg",
+            "name": "Блинчики со сметаной",
+            "category": "Детское меню",
+            "price": 150,
+            "calories": 180,
+            "gram": 170,
+            "coments": ["сметаны по больше", "обычное", "добаивть клубнику"],
+            "spicy":false,
+            "descr": "бины на затрак очент сытно и вкусно"
+        },
+        {
+            "img": "https://vkusnatisha.ru/wp-content/uploads/2021/01/IMG_20210127_101155-2048x2048.jpg",
+            "name": "Блинчики с бананом",
+            "category": "Детское меню",
+            "price": 200,
+            "calories": 180,
+            "gram": 170,
+            "coments": ["банана по больше", "обычное", "добаивть лук в банан"],
+            "spicy":false,
+            "descr": "банан со вкусом банана"
+        },
+        {
+            "img": "https://домповар.рф/upload/iblock/dda/dda35d91ac9f306adf61aa621af0c628.jpg",
+            "name": "Блинчики с творогом",
+            "category": "Детское меню",
+            "price": 200,
+            "calories": 180,
+            "gram": 170,
+            "coments": [
+                "творога по больше",
+                "обычное",
+                "добаивть лук в творог"
+            ],
+            "spicy":false,
+            "descr": "творог который мы украли в магазине просроченный"
+        },
+        {
+            "img": "https://kvashenaya-kapusta.ru/wp-content/uploads/3/e/4/3e4a2ce47aa1a879bd589ac53e4d644e.jpeg",
+            "name": "Суп-лапша по домашнему",
+            "category": "Детское меню",
+            "price": 175,
+            "calories": 180,
+            "gram": 200,
+            "coments": ["по больше лапшы", "обычное", "добаивть лук в суп"],
+            "spicy":false,
+            "descr": "суп без мясо потому что я офицыанты кушают мясо"
+        },
+        {
+            "img": "http://the-pled.ru/wp-content/uploads/2015/05/sup-s-frikadelkami.jpg",
+            "name": "Суп с фрикадельками",
+            "category": "Детское меню",
+            "price": 185,
+            "calories": 180,
+            "gram": 300,
+            "coments": [
+                "по больше фрикадельок",
+                "обычное",
+                "добаивть лук в суп"
+            ],
+            "spicy":false,
+            "descr": "это просто суп без фрикадельок"
+        },
+        {
+            "img": "https://www.wok-cafe.com/upload/resize_cache/iblock/426/960_960_2/426f0f7cfc1aca74a5ead154ebb4aae5.jpg",
+            "name": "Жаренные вареники",
+            "category": "Детское меню",
+            "price": 230,
+            "calories": 178,
+            "gram": 250,
+            "coments": ["по больше пюре", "обычное", "добаивть лук в вареники"],
+            "spicy":false,
+            "descr": "мы покупаем вареники два раза дешевле и продаём их за 230"
+        },
+        {
+            "img": "https://sarang64.ru/assets/images/tovar/new/nagetsi.jpg",
+            "name": "Нагетсы куринные",
+            "category": "Детское меню",
+            "price": 240,
+            "calories": 220,
+            "gram": 250,
+            "coments": ["по больше соуса", "обычное", "добаивть сыр"],
+            "spicy":false,
+            "descr": "нагетсы как в kfc"
+        },
+        {
+            "img": "https://avatars.mds.yandex.net/i?id=126485d7e9acaa4944b21ba6c9dd2546_l-5317527-images-thumbs&ref=rim&n=13&w=1080&h=1080",
+            "name": "Котлета с макоронами под сырным соусом",
+            "category": "Детское меню",
+            "price": 355,
+            "calories": 220,
+            "gram": 350,
+            "coments": ["по больше соуса", "обычное", "добаивть сыр"],
+            "spicy":false,
+            "descr": "суп очень полезный или мне врали ?"
+        },
+        {
+            "img": "https://demo11.serious-art.ru/images/shashlyik-kuricza-na-shpazhke.jpg",
+            "name": "Мини шашлычок из телятини",
+            "category": "Детское меню",
+            "price": 380,
+            "calories": 220,
+            "gram": 400,
+            "coments": ["по больше соуса", "обычное", "добаивть сыр"],
+            "spicy":false,
+            "descr": "на самом деле нету телятены вы видели цены это свенина ХАРАМ!!!"
+        },
+
+
+        {
+            "img": "https://avatars.mds.yandex.net/get-zen_doc/5313760/pub_60f3dfa94b5d8b6f2957ab8f_60f3e05f4b5d8b6f29593cf8/scale_1200",
+            "name": "Чизкейк",
+            "category": "Десерты",
+            "price": 150,
+            "calories": 220,
+            "gram": 130,
+            "coments": ["пена из сливок", "обычное", "с фруктами"],
+            "spicy":false,
+            "descr": "класичиский дисетр для всех возрастов"
+        },
+        {
+            "img": "https://mykaleidoscope.ru/uploads/posts/2021-09/1632149242_52-mykaleidoscope-ru-p-tri-shokolada-krasivo-foto-58.jpg",
+            "name": "Три шоколада",
+            "category": "Десерты",
+            "price": 170,
+            "calories": 220,
+            "gram": 240,
+            "coments": ["белый шакалад", "обычное", "шакалад из сливок"],
+            "spicy":false,
+            "descr": "класичиский дисетр для всех возрастов"
+        },
+        {
+            "img": "http://klublady.ru/uploads/posts/2022-02/1645011931_1-klublady-ru-p-shokoladnii-ponchik-foto-1.jpg",
+            "name": "Шоколадный пончик",
+            "category": "Десерты",
+            "price": 50,
+            "calories": 150,
+            "gram": 100,
+            "coments": ["белый шакалад", "обычное", "пресыпка из орехов"],
+            "spicy":false,
+            "descr": "полицейские предпочитают именно это"
+        },
+        {
+            "img": "https://mykaleidoscope.ru/uploads/posts/2021-09/1632443928_32-mykaleidoscope-ru-p-klubnichnii-ponchik-krasivo-foto-42.jpg",
+            "name": "Клубничный пончик",
+            "category": "Десерты",
+            "price": 50,
+            "calories": 150,
+            "gram": 100,
+            "coments": ["по больше теста", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "полицейские предпочитают именно это"
+        },
+        {
+            "img": "https://s1.eda.ru/StaticContent/Photos/160327193714/160405213756/p_O.jpg",
+            "name": "Творожный пончик",
+            "category": "Десерты",
+            "price": 50,
+            "gram": 100,
+            "coments": ["из духовки", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "творага имеет отличное сачитание с пончиком"
+        },
+        {
+            "img": "https://o-tendencii.com/uploads/posts/2022-02/1645937437_3-o-tendencii-com-p-bananovii-ponchik-foto-3.jpg",
+            "name": "Банановый пончик",
+            "category": "Десерты",
+            "price": 50,
+            "calories": 150,
+            "gram": 100,
+            "coments": ["из духовки", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "банан имеет отличное сачитание с пончиком"
+        },
+        {
+            "img": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612318179_49-p-shokoladnie-ponchiki-fon-93.jpg",
+            "name": "Йогуртовый пончик",
+            "category": "Десерты",
+            "price": 50,
+            "calories": 150,
+            "gram": 100,
+            "coments": ["из духовки", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "йогурт имеет сливочный вкус"
+        },
+        {
+            "img": "https://i.redd.it/b4y4cmb7ovsz.jpg",
+            "name": "Ванильный пончик",
+            "category": "Десерты",
+            "price": 50,
+            "calories": 150,
+            "gram": 100,
+            "coments": ["из духовки", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "ваниль со вкусом мармелада"
+        },
+        {
+            "img": "https://main-cdn.sbermegamarket.ru/hlr-system/106/967/060/752/411/22/100028505512b0.jpg",
+            "name": "Пончик со сгущенкой",
+            "category": "Десерты",
+            "price": 50,
+            "calories": 150,
+            "gram": 110,
+            "coments": ["из духовки", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "сгущенка из магазина(классическая)"
+        },
+        {
+            "img": "https://www.recreoviral.com/wp-content/uploads/2016/03/15.10.jpg",
+            "name": "Пончик «Нутелла»",
+            "category": "Десерты",
+            "price": 70,
+            "calories": 150,
+            "gram": 110,
+            "coments": ["из духовки", "обычное", "струшка из какоса"],
+            "spicy":false,
+            "descr": "нутелла из магазина(классическая)"
+        },
+
+
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/2265411_1630155383.518_original-280x280.jpg  ",
+            "name": "Кола 0.5",
+            "category": "Напитки",
+            "gram": 500,
+            "price": 50,
+            "calories": 210,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классическая кока кола 0.5л."
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/full_cola_big-280x280.png  ",
+            "name": "Кола 1л ",
+            "category": "Напитки",
+            "price": 80,
+            "calories": 420,
+            "gram": 1000,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классическая кока кола 1л."
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/de34116f03f5526499389897e850fe0c-280x280.jpg  ",
+            "name": "Компот 1л",
+            "category": "Напитки",
+            "price": 70,
+            "calories": 120,
+            "gram": 1000,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классический компот 1л."
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/269.970-280x280.jpg  ",
+            "name": "Спрайт 0,5л",
+            "category": "Напитки",
+            "price": 50,
+            "calories": 210,
+            "gram": 500,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классическая спрайт 0.5л."
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/sprite-1l-280x280.jpg  ",
+            "name": "Спрайт 1л",
+            "category": "Напитки",
+            "price": 70,
+            "calories": 420,
+            "gram": 1000,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классическая спрайт 1л."
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/20170504.1493898493.sncpsg10.obj_.0.1.jpg.oe_.jpg.pf_.jpg.1350nowm.jpg.1350x-600x600-1-280x280.jpg  ",
+            "name": "Фанта 0,5л",
+            "category": "Напитки",
+            "price": 50,
+            "calories": 220,
+            "gram": 500,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классическая фанта 0.5л."
+        },
+        {
+            "img": "https://wasabi.kg/wp-content/uploads/2022/03/media-share-0-02-05-f2e064c2eabe4f7c927b2a645a7707cb1a6f4616870881094e6be3da4b9967a6-picture-280x280.jpg  ",
+            "name": "Фанта 1л",
+            "category": "Напитки",
+            "price": 70,
+            "calories": 420,
+            "gram": 1000,
+            "coments": ["в стаканчике", "обычное", "в стакане с трубочкой"],
+            "spicy":false,
+            "descr": "классическая фанта 1л."
+        },
+        {
+            "img": "https://buuza27.ru/wp-content/uploads/2020/05/9_amerikano_s_molokom.png",
+            "name": "Американо с молоком",
+            "category": "Напитки",
+            "price": 100,
+            "calories": 180,
+            "gram": 300,
+            "coments": ["с сливкоми", "обычное", "с трубочкой"],
+            "spicy":false,
+            "descr": "Американо с молоком 0.3л."
+        },
+        {
+            "img": "https://pbs.twimg.com/media/DPYfBq7UEAAkvRI.jpg",
+            "name": "Латте",
+            "category": "Напитки",
+            "calories": 220,
+            "price": 100,
+            "coments": ["с малоком", "обычное", "с трубочкой"],
+            "spicy":false,
+            "descr": "лате 0.3л."
+        },
+        {
+            "img": "https://i.7fon.org/150/x207007.jpg",
+            "name": "Капучино",
+            "category": "Напитки",
+            "calories": 180,
+            "price": 100,
+            "gram": 300,
+            "coments": ["с малоком", "обычное", "с трубочкой"],
+            "spicy":false,
+            "descr": "Капучино 0.3л."
+        },
+        {
+            "img": "https://i.ebayimg.com/images/i/400877699282-0-1/s-l1000.jpg",
+            "name": "Эспрессо классический",
+            "category": "Напитки",
+            "price": 100,
+            "calories": 180,
+            "gram": 300,
+            "coments": ["с сливкоми", "обычное", "с трубочкой"],
+            "spicy":false,
+            "descr": "Эспрессо 0.3л."
+        },
+        {
+            "img": "https://uploads-ssl.webflow.com/5f92b98ef775e43402afe27f/605b07153d84a1300441a20e_blackcoffeevertret-1.jpg",
+            "name": "Шоколадный латте",
+            "category": "Напитки",
+            "price": 100,
+            "calories": 260,
+            "gram": 300,
+            "coments": ["белый Шоколад", "обычное", "с трубочкой"],
+            "spicy":false,
+            "descr": "Шоколадный латте 0.3л."
+        },
+        {
+            "img": "https://about-tea.ru/wp-content/uploads/2/3/c/23cfe1ed74eb63e3ddcf7675f41f868f.jpeg",
+            "name": "Венское кофе «Новинка»",
+            "category": "Напитки",
+            "calories": 150,
+            "price": 100,
+            "gram": 300,
+            "coments": ["c сливкоми", "обычное", "с трубочкой"],
+            "spicy":false,
+            "descr": "Венское 0.3л."
+        }
+    ]
 }

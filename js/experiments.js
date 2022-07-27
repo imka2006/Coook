@@ -4,7 +4,6 @@ const catalogHat = document.querySelector(".catalog__hat");
 const catalogBlock = document.querySelectorAll(".catalog__block");
 const titleWrapper = document.querySelector(".catalog__list--title-wrapper");
 
-
 const foodListSort = [
     "все",
     "Любимое",
@@ -21,11 +20,6 @@ const foodListSort = [
 for (let i = 0; i < foodListSort.length; i++) {
     catalogHat.innerHTML += `
         <li class="catalog__hat--item">${foodListSort[i]}</li>
-    `;
-}
-for (let i = 1; i < foodListSort.length; i++) {
-    titleWrapper.innerHTML += `
-    <h2 class="catalog__list--title">${foodListSort[i]}</h2>
     `;
 }
 
@@ -125,8 +119,15 @@ const getData = async () => {
   </div>
       `;
     }
+    const spicyChili = document.querySelectorAll(".catalog__block--spicy");
+    spicyChili.forEach((item, i) => {
+        if (data[i].spicy === false) {
+            item.style.display = "none";
+        } 
+    });
 };
 getData();
+
 const catalogSwiper = new Swiper(".catalog__swiper", {
     direction: "vertical",
     slidesPerView: "auto",

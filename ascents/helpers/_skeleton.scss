@@ -1,0 +1,57 @@
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+    to {
+        background-color: hsl(200, 20%, 70%);
+    }
+    from {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
+.catalog {
+    &__block.skeleton-another {
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
+    }
+    &__food--add.skeleton {
+        border-radius: 99px;
+        width: 200px;
+        height: 40px;
+        box-shadow: none;
+    }
+    &__btns.skeleton {
+        width: 120px;
+        height: 40px;
+        border-radius: 99px;
+        padding: 0;
+    }
+    &__block--bottom.skeleton-another {
+        background: #212629;
+    }
+    &__food--descr.skeleton {
+        width: 330px;
+        height: 80px;
+        border-radius: 15px;
+    }
+    &__food--price.skeleton {
+        width: 33px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    &__food--calory.skeleton {
+        width: 68px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    &__food--gram.skeleton {
+        width: 33px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    &__food--subtitle.skeleton {
+        width: 320px;
+        height: 44px;
+        border-radius: 10px;
+    }
+}
