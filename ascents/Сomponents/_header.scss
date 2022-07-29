@@ -1,0 +1,105 @@
+.header{
+    &__content{
+        @include flex(center, space-between, wrap);
+    }
+    &__items{
+        @include flex(center, space-between, wrap);
+    }
+    &__item{
+        @include flex(center, space-between, wrap);
+        background: #25D366;
+        border-radius: 30px;
+        padding: 0 10px;
+    }
+    &__title{
+        @include font (700, 18px, $white);
+        padding: 10px 30px;
+    }
+    &__item--icon{
+        padding-left: 20px;
+    }
+    &__suptitle{
+        @include font (700, 18px, $liteblack);
+        padding: 10px 30px;
+        background: #E9E9E9;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+        border-radius: 30px;
+        margin: 0 10px;
+    }
+    &__user{
+        padding: 10px 12px;
+        border-radius: 30px;
+        background: #E9E9E9;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .header{
+        &__title{
+            @include font (700, 16px, $white);
+            padding: 10px 15px;
+        }
+        &__suptitle{
+            @include font (700, 16px, $liteblack);
+            padding: 10px 15px;
+        }
+    }
+}
+@media screen and (max-width:640px) {
+    .header{
+        &__title{
+            @include font (700, 14px, $white);
+            padding: 10px 10px;
+        }
+        &__suptitle{
+            @include font (700, 14px, $liteblack);
+            padding: 10px 10px;
+        }
+    }
+}
+@media screen and (max-width:570px) {
+    .header{
+        &__title{
+            display: none;
+        }
+        &__suptitle{
+            @include font (700, 14px, $liteblack);
+            padding: 10px 10px;
+        }
+        &__item--icon{
+            padding: 10px 10px;
+        }
+    }
+}
+@media screen and (max-width:475px) {
+    .header{
+        &__title{
+            display: none;
+        }
+        &__suptitle{
+            @include font (700, 10px, $liteblack);
+            padding: 10px 10px;
+        }
+        &__item--icon{
+            padding: 10px 10px;
+        }
+        &__logo{
+            max-width: 90px;
+        }
+    }
+}
+@media screen and (max-width:380px) {
+    .header{
+        &__suptitle{
+            @include font (700, 8px, $liteblack);
+            padding: 5px 5px;
+        }
+        &__item--icon{
+            padding:5px 5px;
+        }
+        &__user{
+            padding: 5px 5px;
+        }
+    }
+}
