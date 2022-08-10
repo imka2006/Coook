@@ -39,27 +39,15 @@ li {
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .dot {
@@ -70,11 +58,8 @@ li {
 }
 
 .catalog__hat {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 72px;
 }
@@ -85,15 +70,13 @@ li {
   font-size: 16px;
   color: #212629;
   background: #E9E9E9;
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
   border-radius: 99px;
   cursor: pointer;
 }
 
 .catalog__hat--item:hover {
-  -webkit-box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8), inset -6px -6px 5px rgba(255, 255, 255, 0.3), inset 1px 1px 3px rgba(0, 0, 0, 0.15), inset 6px 6px 5px rgba(0, 0, 0, 0.06);
-          box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8), inset -6px -6px 5px rgba(255, 255, 255, 0.3), inset 1px 1px 3px rgba(0, 0, 0, 0.15), inset 6px 6px 5px rgba(0, 0, 0, 0.06);
+  box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.8), inset -6px -6px 5px rgba(255, 255, 255, 0.3), inset 1px 1px 3px rgba(0, 0, 0, 0.15), inset 6px 6px 5px rgba(0, 0, 0, 0.06);
 }
 
 .catalog__list--title {
@@ -105,15 +88,13 @@ li {
 
 .catalog__list--wrapper {
   margin-bottom: 110px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .catalog__block {
   max-width: 370px;
   border-radius: 40px 40px 40px 5px;
   overflow: hidden;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -122,8 +103,7 @@ li {
 }
 
 .catalog__block:hover {
-  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 40px 40px 50px rgba(0, 0, 0, 0.5);
 }
 
 .catalog__block:hover .catalog__block--bottom {
@@ -133,25 +113,21 @@ li {
 
 .catalog__block:hover .catalog__food--subtitle {
   color: #fff;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--quantity {
   color: #fff;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--data {
   color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--descr {
   color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -161,40 +137,32 @@ li {
 
 .catalog__block:hover .catalog__btn--minus::after {
   background: #fff;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__btn--plus::after {
   background: #fff;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__btn--plus::before {
   background: #fff;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--add {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
   background: #212629;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .catalog__block:hover .catalog__food--add:hover {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
-  -webkit-transition: 0.3s;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
   transition: 0.3s;
 }
 
 .catalog__block:hover .dot {
   background: rgba(255, 255, 255, 0.2);
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -242,8 +210,7 @@ li {
   height: 40px;
   background: #fff;
   border-radius: 50%;
-  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
   z-index: 9;
 }
 
@@ -253,7 +220,6 @@ li {
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
   margin-top: -1px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -266,12 +232,8 @@ li {
 }
 
 .catalog__food--data {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
   font-weight: 300;
   font-size: 14px;
@@ -294,19 +256,14 @@ li {
 }
 
 .catalog__add {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
 }
 
 .catalog__food--add {
   background: #E9E9E9;
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #ffffff, 5px 5px 20px #d3d3d3;
   border-radius: 99px;
   padding: 10px 59px;
   font-weight: 700;
@@ -355,6 +312,94 @@ li {
   height: 13px;
   background: #212629;
   border-radius: 1px;
+}
+
+.hero__slide {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  height: 500px;
+  background: #212629;
+  border-radius: 80px 80px 80px 5px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.hero__left {
+  top: 50px;
+  max-width: 563px;
+  height: 278px;
+}
+
+.hero__img {
+  position: absolute;
+  right: 15%;
+  top: -1%;
+}
+
+.hero__btn {
+  margin-top: 24px;
+  width: 230px;
+  height: 40px;
+  background: #212629;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.hero__btn--text {
+  font-weight: 700;
+  font-size: 18.02px;
+  color: #FE9102;
+}
+
+.hero__btn--icon {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 280px;
+  left: 53px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(233, 233, 233, 0.25);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 2;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #FFFFFF;
+  background: #212629;
+}
+
+.hero-slider,
+.swiper {
+  height: 771px;
+  max-width: 1440px;
 }
 
 @media screen and (max-width: 1200px) {
