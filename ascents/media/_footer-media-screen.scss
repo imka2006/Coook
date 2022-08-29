@@ -1,7 +1,13 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .footer {
-        &__wrap {
-            flex-wrap: wrap;
+        &__left {
+            border-top: none;
         }
+
+        &__full {
+            border-top: none;
+            width: auto;
+        }
+
     }
 }

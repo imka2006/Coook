@@ -132,7 +132,6 @@ li {
 }
 .footer__left {
   border-top: 1px solid rgba(22, 22, 22, 0.08);
-  max-width: 370px;
 }
 .footer__full {
   display: flex;
@@ -144,7 +143,7 @@ li {
 }
 .footer__full {
   border-top: 1px solid rgba(22, 22, 22, 0.08);
-  max-width: 370px;
+  width: 370px;
 }
 .footer__link {
   color: #212629;
@@ -155,6 +154,9 @@ li {
   transition: 0.7s;
 }
 
+.private__margin {
+  margin-bottom: 100px;
+}
 .private__title {
   font-family: "Gilroy";
   font-weight: 700;
@@ -253,6 +255,15 @@ li {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .footer__left {
+    border-top: none;
+  }
+  .footer__full {
+    border-top: none;
+    width: auto;
+  }
+}
 @media screen and (max-width: 1200px) {
   .container {
     padding: 0 30px;
@@ -266,10 +277,5 @@ li {
 @media screen and (max-width: 600px) {
   .container {
     padding: 0 10px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .footer__wrap {
-    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */

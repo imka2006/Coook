@@ -23,7 +23,6 @@
 
     &__left {
         border-top: 1px solid rgba(22, 22, 22, 0.08);
-        max-width: 370px;
     }
 
     &__full {
@@ -38,7 +37,7 @@
 
     &__full {
         border-top: 1px solid rgba(22, 22, 22, 0.08);
-        max-width: 370px;
+        width: 370px; 
     }
 
     &__link {
